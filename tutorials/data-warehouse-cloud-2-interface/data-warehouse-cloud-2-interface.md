@@ -18,7 +18,7 @@ primary_tag: products>sap-data-warehouse-cloud
 
   You can also follow the steps in this tutorial by watching this video
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rBHXzCmyYc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe id="kmsembed-1_xrbtl0jw" width="421" height="300" src="https://video.sap.com/embed/secure/iframe/entryId/1_xrbtl0jw/uiConfId/30317401/pbc/122287171/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="T02 - Familiarize yourself with the home screen controls"></iframe>
 
 
 ---
