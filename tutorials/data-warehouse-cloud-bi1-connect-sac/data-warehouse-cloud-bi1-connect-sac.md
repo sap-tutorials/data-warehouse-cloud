@@ -3,7 +3,7 @@ parser: v2
 auto_validation: true
 time: 10
 tags: [ tutorial>intermediate, products>sap-analytics-cloud]
-primary_tag: products>sap-data-warehouse-cloud
+primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Connect SAP Analytics Cloud to SAP Data Warehouse Cloud
