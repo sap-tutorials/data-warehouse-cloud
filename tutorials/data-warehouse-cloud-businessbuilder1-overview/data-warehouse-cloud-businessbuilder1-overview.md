@@ -9,7 +9,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Business Builder in SAP Data Warehouse Cloud
-<!-- description --> Learn about the business modeling capabilities of the Business Builder in SAP Data Warehouse Cloud, including what you can use it for, who should use it, and some of the prerequisites.
+<!-- description --> Learn about the business modeling capabilities of the Business Builder in SAP Data Warehouse Cloud, including what you can use it for, who should use it, and some of the prerequisites. 
 
 ## You will learn
 - What is the Business Layer in SAP Data Warehouse Cloud
