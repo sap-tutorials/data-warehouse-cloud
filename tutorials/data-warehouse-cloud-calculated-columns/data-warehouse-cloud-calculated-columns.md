@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, products>sap-data-warehouse-cloud]
-primary_tag: products>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
+primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Create a Calculated Column in SAP Data Warehouse Cloud

@@ -5,7 +5,7 @@ author_profile: https://github.com/helenanacinovic
 auto_validation: true
 time: 10
 tags: [ tutorial>beginner, products>sap-business-technology-platform]
-primary_tag: products>sap-data-warehouse-cloud
+primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Collaborate with the Repository Explorer

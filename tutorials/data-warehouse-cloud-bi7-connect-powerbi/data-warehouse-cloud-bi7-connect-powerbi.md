@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 10
-tags: [ tutorial>intermediate, products>sap-data-warehouse-cloud]
-primary_tag: products>sap-data-warehouse-cloud
+tags: [ tutorial>intermediate, software-product>sap-data-warehouse-cloud]
+primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Connect Microsoft Power BI to SAP Data Warehouse Cloud

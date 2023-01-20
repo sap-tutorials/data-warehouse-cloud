@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 15
-tags: [ tutorial>beginner, products>sap-data-warehouse-cloud]
-primary_tag: products>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
+primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Model Data with SQL in SAP Data Warehouse Cloud
