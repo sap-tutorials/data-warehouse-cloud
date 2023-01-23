@@ -21,7 +21,7 @@ author_profile: https://github.com/perlayoung
 
 To get started, sign up for your [SAP Data Warehouse Cloud free tier tenant](https://www.sap.com/products/technology-platform/data-warehouse-cloud/trial.html). Scroll to the bottom of the page and click on `New to SAP BTP` to get started. Follow along in the video below for step-by-step guidance on setting up your SAP Business Technology Platform free tier account <iframe width="560" height="315" src="https://www.youtube.com/embed/0zGuMus4R10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-FOr an overview of the SAP Data Warehouse Cloud free tier tenant, please watch the video below. <iframe width="560" height="315" src="https://www.youtube.com/embed/pNzsxepl-hQ?start=623" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For an overview of the SAP Data Warehouse Cloud free tier tenant, please watch the video below. <iframe width="560" height="315" src="https://www.youtube.com/embed/pNzsxepl-hQ?start=623" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Get to know mission objective
 
