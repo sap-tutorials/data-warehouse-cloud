@@ -27,9 +27,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ### Create new columns
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3uI8B2VHQKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-In the video above, you can see a complete demo adding new columns and managing changes in data models with SAP Data Warehouse Cloud. The steps below will guide you through the same process.
+The steps below will guide you through adding new columns and managing changes in data models with SAP Data Warehouse Cloud.
 
 > In this tutorial, you will see an example related to orders and sales in the Data Builder. But you can follow the steps with any kind of data you might have on your system.
 
