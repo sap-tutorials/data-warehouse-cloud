@@ -6,7 +6,7 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Model Data with a Graphical View
+# Model Data with a Graphical View 
 <!-- description --> Get started with graphical views using the Data Builder in SAP Data Warehouse Cloud, which helps you to create and visualize the data model.
 
 ## Prerequisites
@@ -35,13 +35,6 @@ If you are unsure what data modeling means, or what a joins and unions are, plea
 
 
 ---
-
-### Graphical view demo
-
-In the video below, you can see a complete demo of the data modeling process in SAP Data Warehouse Cloud using graphical views. The steps in this tutorial are going to guide you through the same process.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nLwA81yf5IE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ### Create a new view
 
