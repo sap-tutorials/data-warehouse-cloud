@@ -24,14 +24,6 @@ The notification bubbles in SAP Data Warehouse cloud are not just notifications!
 
 ---
 
-### Understand the Notification Bubbles
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EN6Cg1Z9wyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-In this video, you will see an example of data model being broken on purpose, so that you can see all types of notification bubbles in SAP Data Warehouse Cloud.
-
-
 ### Get to know the information bubbles
 
 
