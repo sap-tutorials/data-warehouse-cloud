@@ -104,9 +104,7 @@ You can change the join cardinality in the join properties of the data model. Cl
 
 You can now compute and display SQL statements from the graphical view builder. You can benefit from debugging and validation with the converted SQL statements while building your data models. The resulting SQL statements can also be used as a basis for creating other SQL views in the Data Builder.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IRnt2_dDxzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The video above or the steps following will guide you through the process of converting a graphical view to SQL statements.
+The  following steps will guide you through the process of converting a graphical view to SQL statements.
 
 1.	Go to **Data Builder** in SAP Data Warehouse Cloud.
 
