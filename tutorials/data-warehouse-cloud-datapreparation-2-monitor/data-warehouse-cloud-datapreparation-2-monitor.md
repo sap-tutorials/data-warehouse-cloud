@@ -21,9 +21,7 @@ The Data Integration Monitor helps you to monitor and manage table replication f
 
 > CSV files uploaded directly to SAP Data Warehouse Cloud are not monitored.
 
-In the video below, you can see an overview of Data Integration Monitor in SAP Data Warehouse Cloud. The steps in this tutorial will guide you through the same process.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qUNxdLDIXnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
 
 ### Access the Data Integration Monitor
