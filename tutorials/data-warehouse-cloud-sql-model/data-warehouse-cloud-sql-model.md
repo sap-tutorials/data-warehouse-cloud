@@ -72,11 +72,6 @@ To start modeling your data using the graphical view in the Data Builder of SAP 
 
 You can also convert your **Graphical View** in the SQL statements. You can refer the step 4 of **[Preview and Transform Your Data in a Graphical View](data-warehouse-cloud-graphical2-datapreview)** for information on converting your graphical view to SQL statements.
 
-You can also go through the below video which explains the same process of converting graphical view in to SQL statements.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IRnt2_dDxzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ### Preview and deploy SQL view
 
 
@@ -104,10 +99,6 @@ If you are already familiar with the **SAP HANA-based SQL Script** language, you
 With the SQL Script, you can define data intensive logic: use `control structures`, `variables`, create `IF` and `FOR` loops. These are just a few possibilities to name.
 
 > Note that the use of SQL Script is currently limited to read-only user defined table functions, therefore **Data Definition Language (DDL)** or **Data Manipulation Language (DML)** are not currently supported.
-
-In the video below, you will see the use of SQL Script to create an ABC Analysis to understand which products contribute the most to the revenue.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQRaKJTXmUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 &nbsp;
 > **Well done!**
