@@ -27,10 +27,6 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ## Intro
 Consumption models in the Business Builder of SAP Data Warehouse Cloud are the final business model you need to create before sharing your data with a visualization tool, such as SAP Analytics Cloud or equivalent.
 
-To get an overview of using consumption models, please see the video below.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pl3ZnvTqDsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 To learn more about consumption models, please see our [technical documentation](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/337fa99de4a44700ba49e2214a1f3349.html).

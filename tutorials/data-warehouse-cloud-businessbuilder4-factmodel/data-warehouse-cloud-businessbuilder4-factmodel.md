@@ -69,11 +69,6 @@ If you wish to add a previously created dimension to your fact model, it's very 
 
 > Please keep in mind that, if you add more than one fact source to a fact model, in the background a union will be made between these two facts. So, it's crucial that the data in the two fact sources can be combined.
 
-> Learn more in the following video:
-
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/5x0Hq2kQgAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 
 ### Add to or create new business entities in your fact model
