@@ -24,11 +24,6 @@ Whether you choose to persist a view or remote tables depends on your performanc
 
 > <!-- border -->![Understanding VP](VP.png)
 
-You can see this feature in action in the video below. Throughout this tutorial, we will cover the details of the same process.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rg67g3B8y_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ---
 
 ### Access the View Persistency Monitor
