@@ -24,7 +24,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
   This mission consists of 8 modules that contain the necessary steps you need to follow in your mission to help Best Run Bikes:
 
-  1. [Sign up for trial.](data-warehouse-cloud-1-begin-trial)
+  1. [Sign up for free tier tenant.](data-warehouse-cloud-1-begin-trial)
   2. [Get to know the SAP Data Warehouse Cloud interface](data-warehouse-cloud-2-interface)
   3. [Add users and assign roles](data-warehouse-cloud-3-add-users)
   4. [Create your Space](data-warehouse-cloud-4-spaces)

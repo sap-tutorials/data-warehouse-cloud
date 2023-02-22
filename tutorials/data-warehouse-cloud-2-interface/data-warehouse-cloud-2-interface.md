@@ -10,7 +10,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 <!-- description --> Familiarize yourself with the interface of SAP Data Warehouse Cloud
 
 ## Prerequisites
- - You have [signed up for a free SAP Data Warehouse Cloud Trial.](data-warehouse-cloud-1-begin-trial)
+ - You have [signed up for a SAP Data Warehouse Cloud free tier tenant.](data-warehouse-cloud-1-begin-trial)
 
 ## You will learn
   -	How to navigate the user interface of SAP Data Warehouse Cloud
