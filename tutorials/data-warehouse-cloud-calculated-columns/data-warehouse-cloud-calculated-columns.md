@@ -116,18 +116,12 @@ To preview the data after adding a new calculated column, follow these steps:
 
     <!-- border -->![DID](DID.png)
 
-You can also go through the video below which will guide you through the same process of creating a calculated column and previewing the result including advanced examples of functions and formulas.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YHF-WZ56rxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
 ### Write a calculated expression
 
 
-In the video below, you can see an example of calculated expression in **Data Builder** in SAP Data Warehouse Cloud. The steps in this tutorial will guide you through the same process.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TbPHfnoQ0vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once you have arrived at the `CalculatedElementsProperties` sidebar and chose to create a new calculated column in the Data Builder, you will see the fields to enter Business name and Technical name followed by Expression box, Functions, Columns and the Operators that you can use in SAP Data Warehouse Cloud.
 
