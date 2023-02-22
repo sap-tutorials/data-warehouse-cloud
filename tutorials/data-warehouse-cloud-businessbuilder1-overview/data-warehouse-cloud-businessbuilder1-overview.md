@@ -95,19 +95,12 @@ One important thing to keep in mind is: everything is that is created in the Bus
 
 The strength of SAP Data Warehouse Cloud is in bringing together different parts of the organization to connect, prepare, model, and then create business entities for visualization. That means collaborating with colleagues who have different skills to enable business analysts to come into the Business Builder and start modeling data based on concrete business questions.
 
-
-### Watch an end-to-end example
-
-
-In this video, you can see a simple, but complete example of data modeling with SAP Data Warehouse Cloud. You can then see how the modeling workflow starts in the data layer, and then can be finished in the business layer.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mrhfsMaXBGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 > **Well done!**
 
 > You have completed the first tutorial of this group! Now you understand better the business layer and Business Builder in SAP Data Warehouse Cloud.
 
 > Learn in the next tutorial how to create your first analytical dataset.
+
 
 
 
