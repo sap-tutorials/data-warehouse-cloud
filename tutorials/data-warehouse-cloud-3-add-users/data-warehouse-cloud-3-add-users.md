@@ -10,7 +10,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 <!-- description --> Add new users and assign roles to them in SAP Data Warehouse Cloud.
 
 ## Prerequisites
- - You have [signed up for the SAP Data Warehouse Cloud trial.](data-warehouse-cloud-1-begin-trial)
+ - You have [signed up for a SAP Data Warehouse Cloud free tier tenant.](data-warehouse-cloud-1-begin-trial)
  - You have [familiarised yourself with the SAP Data Warehouse Cloud interface.](data-warehouse-cloud-2-interface)
 
 
