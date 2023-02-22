@@ -24,10 +24,6 @@ Data Wrangling is the process used to clean and convert data from one format and
 ### Upload a CSV file
 
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6XStDvm7CaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-In the video above, you can see an example of how to upload a flat file in `csv` format to SAP Data Warehouse Cloud. You can then see the steps in detail here below.
-
 1.	In the SAP Data Warehouse Cloud welcome page, click on **Data Builder** on the menu on the left-hand side.
 
     <!-- border -->![DWC](New_DWC.png)
