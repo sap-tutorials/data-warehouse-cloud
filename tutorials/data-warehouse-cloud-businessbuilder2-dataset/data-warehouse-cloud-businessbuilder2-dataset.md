@@ -26,7 +26,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 ## Intro
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LNT7ciCJnpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 In this tutorial, you will see an example dataset that contains information about sales. Please keep in mind that any data that will be used in the Business Builder needs to first be connected to or imported into SAP Data Warehouse Cloud before you can start creating business objects with Business Builder.
 
@@ -105,7 +105,6 @@ Your existing measures are now available in the analytical dataset.
 
 6.	You can add a currency or measurement unit to your measure, if appropriate, on the **Currency or Unit** field.
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TTwxioVhSZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 7.	Finally, you can choose to make your measure an **Auxiliary measure**.
 
