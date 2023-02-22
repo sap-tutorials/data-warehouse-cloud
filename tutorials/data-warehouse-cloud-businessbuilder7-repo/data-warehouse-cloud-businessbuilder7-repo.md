@@ -27,11 +27,6 @@ The Repository Explorer is the central point to find, manage, and collaborate on
 ### Get to know the Repository Explorer
 
 
-See a demo of the Repository Explorer in this video:
-
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kxhcpKGzWcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 The Repository Explorer is a place to secure and organize entities within SAP Data Warehouse Cloud.
 
