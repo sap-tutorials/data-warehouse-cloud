@@ -20,9 +20,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ## Intro
 The **Remote Table Monitor** in the Data integration Monitor helps you to manage your access to data in SAP Data Warehouse Cloud. Get started with the user-friendly interface of the Data Integration Monitor and organize your data replication efficiently.
 
-In the video below, you can see a demo of data replication in SAP Data Warehouse Cloud. The steps in this tutorial will guide you through a similar process in detail.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KbyMqiqH-1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
 
 ### Access the Data Integration Monitor
