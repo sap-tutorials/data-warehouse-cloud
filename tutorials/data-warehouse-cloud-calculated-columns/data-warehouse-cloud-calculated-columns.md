@@ -10,7 +10,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 <!-- description --> Learn how to add a calculated column to a view and get familiar with writing formulas using functions in the Data Builder of SAP Data Warehouse Cloud.
 
 ## Prerequisites
-- You have your SAP Data Warehouse Cloud tenant, or you have signed up for a [trial account](https://www.sap.com/products/data-warehouse-cloud/trial.html)
+- You have your SAP Data Warehouse Cloud tenant, or you have signed up for a [free tier tenant](data-warehouse-cloud-1-begin-trial)
 - You have imported data into your Space
 - Understand [Core Data Services Query Language (CQL)](https://cap.cloud.sap/docs/cds/cql)
 

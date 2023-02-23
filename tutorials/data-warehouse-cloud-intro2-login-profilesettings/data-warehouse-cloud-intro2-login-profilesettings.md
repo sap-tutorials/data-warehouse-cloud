@@ -9,7 +9,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 <!-- description --> View and change your profile settings.
 
 ## Prerequisites
- - You have [signed up for a free SAP Data Warehouse Cloud Trial](data-warehouse-cloud-1-begin-trial) or are an existing SAP Data Warehouse Cloud customer.
+ - You have [signed up for a free tier tenant](data-warehouse-cloud-1-begin-trial) or are an existing SAP Data Warehouse Cloud customer.
 
 ## You will learn
 - How to view your profile settings

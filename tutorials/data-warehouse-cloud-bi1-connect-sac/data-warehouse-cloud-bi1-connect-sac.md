@@ -10,7 +10,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 <!-- description --> With SAP Data Warehouse Cloud and SAP Analytics Cloud together, you can handle complex analytics scenarios based on hybrid system architectures. Learn how to connect SAP Analytics Cloud to SAP Data Warehouse Cloud in this tutorial.
 
 ## Prerequisites
- - You have [signed up for a free SAP Data Warehouse Cloud Trial](data-warehouse-cloud-1-begin-trial) or are an existing SAP Data Warehouse Cloud customer.
+ - You have [signed up for a free tier tenant](data-warehouse-cloud-1-begin-trial) or are an existing SAP Data Warehouse Cloud customer.
  - You have access to an SAP Analytics Cloud tenant.
 
 ## You will learn
