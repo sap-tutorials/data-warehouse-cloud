@@ -10,7 +10,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 <!-- description --> Get started with SQL views using the Data Builder in SAP Data Warehouse Cloud to create, visualize and manipulate data models.
 
 ## Prerequisites
-- You have your SAP Data Warehouse Cloud tenant or you have signed up for a [trial account](https://www.sap.com/products/data-warehouse-cloud/trial.html).
+- You have your SAP Data Warehouse Cloud tenant or you have signed up for a [free tier tenant](data-warehouse-cloud-1-begin-trial).
 - You have imported data into your Space.
 
 
