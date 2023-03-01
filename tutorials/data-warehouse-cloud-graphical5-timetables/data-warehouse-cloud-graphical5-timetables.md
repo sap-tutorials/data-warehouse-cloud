@@ -6,7 +6,7 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Generate Time Table and Dimensions
+# Generate Time Table and Dimensions 
 <!-- description --> Create time tables and dimensions in SAP Data Warehouse Cloudת which then allows you to gather insights with year, quarter, month and day granularities.
 
 ## Prerequisites
