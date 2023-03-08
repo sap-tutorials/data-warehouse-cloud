@@ -1,4 +1,4 @@
----
+---DWC
 parser: v2
 auto_validation: true
 time: 10
@@ -7,10 +7,10 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Create New Columns in a Graphical View
-<!-- description --> Add new columns to a table or existing graphical view in SAP Data Warehouse Cloud and adapt them for the output structure.
+<!-- description --> Add new columns to a table or existing graphical view in SAP Datasphere and adapt them for the output structure.
 
 ## Prerequisites
-- Have at least one graphical view created and deployed in SAP Data Warehouse Cloud -- see [Model Data with a Graphical View](data-warehouse-cloud-graphical1-model).
+- Have at least one graphical view created and deployed in SAP Datasphere -- see [Model Data with a Graphical View](data-warehouse-cloud-graphical1-model).
 
 ## You will learn
 - Create new columns in a table or existing view
@@ -20,14 +20,14 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 ## Intro
-**The Data Builder** in SAP Data Warehouse Cloud makes it simple to make changes to your data while you model it. In this tutorial, you will see what happens to dependent views when new columns are added to a table or view in SAP Data Warehouse Cloud.
+**The Data Builder** in SAP Datasphere makes it simple to make changes to your data while you model it. In this tutorial, you will see what happens to dependent views when new columns are added to a table or view in SAP Datasphere. 
 
 ---
 
 ### Create new columns
 
 
-The steps below will guide you through adding new columns and managing changes in data models with SAP Data Warehouse Cloud.
+The steps below will guide you through adding new columns and managing changes in data models with SAP Datasphere.
 
 > In this tutorial, you will see an example related to orders and sales in the Data Builder. But you can follow the steps with any kind of data you might have on your system.
 
@@ -86,7 +86,7 @@ If you need to restore the new columns you previously added, follow these steps:
 
 > Note that if you want to restore all hidden columns at once, simply delete the system generated projection node. You can now deploy the table as usual.
 
-> You can alter the primary key of a table in data builder of SAP Data Warehouse Cloud, even if the table already contains data and even if you have added a new column. The system validates new primary keys and checks tables for null values and uniqueness of the record sets. Also, the system supports compound and or multiple primary keys to adapt to the table data and modeling requirements. At the same time, it prevents you to enter data sets into an already existing data set if it is not unique.
+> You can alter the primary key of a table in data builder of SAP Datasphere, even if the table already contains data and even if you have added a new column. The system validates new primary keys and checks tables for null values and uniqueness of the record sets. Also, the system supports compound and or multiple primary keys to adapt to the table data and modeling requirements. At the same time, it prevents you to enter data sets into an already existing data set if it is not unique.
 
   <!-- border -->![Primary Key](Picture6.png)
 

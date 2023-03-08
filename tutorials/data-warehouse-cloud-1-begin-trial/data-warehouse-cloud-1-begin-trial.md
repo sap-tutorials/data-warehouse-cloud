@@ -8,32 +8,32 @@ author_name: Perla Young
 author_profile: https://github.com/perlayoung
 ---
 
-# Get Ready for Your SAP Data Warehouse Cloud Trial Mission
-<!-- description --> Get started with SAP Data Warehouse Cloud by signing up for the free tier service plan.
+# Get Ready for Your SAP Datasphere Trial Mission
+<!-- description --> Get started with SAP Datasphere by signing up for the free tier service plan.
 
 ## You will learn
-  - How to sign up for the SAP Data Warehouse Cloud free tier
+  - How to sign up for the SAP Datasphere free tier
   - The goals of this mission
   - Where to find and how to use the toolkit for this mission
 
 
-### Get your SAP Data Warehouse Cloud free tier tenant 
+### Get your SAP Datasphere free tier tenant
 
-To get started, sign up for your [SAP Data Warehouse Cloud free tier tenant](https://www.sap.com/products/technology-platform/data-warehouse-cloud/trial.html). Scroll to the bottom of the page and click on `New to SAP BTP` to get started. Follow along in the video below for step-by-step guidance on setting up your SAP Business Technology Platform free tier account <iframe width="560" height="315" src="https://www.youtube.com/embed/0zGuMus4R10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+To get started, sign up for your [SAP Datasphere free tier tenant](https://www.sap.com/products/technology-platform/data-warehouse-cloud/trial.html). Scroll to the bottom of the page and click on `New to SAP BTP` to get started. Follow along in the video below for step-by-step guidance on setting up your SAP Business Technology Platform free tier account <iframe width="560" height="315" src="https://www.youtube.com/embed/0zGuMus4R10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For an overview of the SAP Data Warehouse Cloud free tier tenant, please watch the video below. <iframe width="560" height="315" src="https://www.youtube.com/embed/pNzsxepl-hQ?start=623" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For an overview of the SAP Datasphere free tier tenant, please watch the video below. <iframe width="560" height="315" src="https://www.youtube.com/embed/pNzsxepl-hQ?start=623" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Get to know mission objective
 
 
-In this mission, you'll see a business scenario to give you context as you explore SAP Data Warehouse Cloud. The example and dataset you'll use will be around a fictitious global bike supplier called Best Run Bikes. This company is looking to use sales data they have available to maximise their sales.
+In this mission, you'll see a business scenario to give you context as you explore SAP Datasphere. The example and dataset you'll use will be around a fictitious global bike supplier called Best Run Bikes. This company is looking to use sales data they have available to maximise their sales.
 
-Your mission today is to help Best Run Bikes to get a holistic view of their sales data by using the power of SAP Data Warehouse Cloud. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Data Warehouse Cloud to help the bike suppliers make the best possible business decisions.
+Your mission today is to help Best Run Bikes to get a holistic view of their sales data by using the power of SAP Datasphere. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Datasphere to help the bike suppliers make the best possible business decisions.
 
 ### Download mission toolkit
 
 
-The toolkit contains sample data you can import into your free tier tenant SAP Data Warehouse Cloud account. The toolkit consists of 4 sales data CSV tables related to Best Run Bikes. These are:
+The toolkit contains sample data you can import into your free tier tenant SAP Datasphere account. The toolkit consists of 4 sales data CSV tables related to Best Run Bikes. These are:
 
 •	[Sales Orders](SalesOrders.csv)
 

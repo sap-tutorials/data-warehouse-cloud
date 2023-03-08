@@ -7,10 +7,10 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Define the Password Lifetime for a Database User
-<!-- description --> Define a password lifetime for database users to help better meet your security needs for SAP Data Warehouse Cloud.
+<!-- description --> Define a password lifetime for database users to help better meet your security needs for SAP Datasphere.
 
 ## Prerequisites
- - You have [understood different roles](data-warehouse-cloud-3-add-users), and are assigned the DW Administrator role.
+ - You have [understood different roles](data-warehouse-cloud-3-add-users), and are assigned the SAP Datasphere Administrator role.
  - You have [created a database user in your Space.](data-warehouse-cloud-intro8-create-databaseuser)
 
 
@@ -23,7 +23,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ### Define a global password policy
 
 
-SAP Data Warehouse Cloud allows you to connect to 3rd-party ETL and BI tools by using database users. Each user has its own set of credentials, including passwords. To help you better meet your security needs, we have introduced an option to manage password lifetime for database users. This feature allows you to:
+SAP Datasphere allows you to connect to 3rd-party ETL and BI tools by using database users. Each user has its own set of credentials, including passwords. To help you better meet your security needs, we have introduced an option to manage password lifetime for database users. This feature allows you to:
 
   - Define a global tenant-wide password lifetime policy.
 
@@ -31,11 +31,11 @@ SAP Data Warehouse Cloud allows you to connect to 3rd-party ETL and BI tools by 
 
   - Improve compliance with corporate password policies.
 
-> You need the DW Administrator role to configure the password policy.
+> You need the SAP Datasphere Administrator role to configure the password policy.
 
 To define the password policy, go to **Configuration** > **Security**
 
-  ![Password Policy](T09 1.png)
+  ![Password Policy](T09%201.png)
 
 Here, you can enter the number of days for which the initial password or any password set by a user administrator for a user is valid.
 
@@ -54,9 +54,9 @@ For an existing user, simply select the database user and mark the checkbox. You
 
 >**Well done!**
 
-> You have completed the 9th tutorial of this group. Now you know how to define the password lifetime for a database user in SAP Data Warehouse Cloud.
+> You have completed the 9th tutorial of this group. Now you know how to define the password lifetime for a database user in SAP Datasphere.
 
-> Learn in the next tutorial [how to connect your Space to an SAP HANA Cloud, data lake in SAP Data Warehouse Cloud.](data-warehouse-cloud-intro10-connectspace-datalake)
+> Learn in the next tutorial [how to connect your Space to an SAP HANA Cloud, data lake in SAP Datasphere.](data-warehouse-cloud-intro10-connectspace-datalake)
 
 
 ### Test yourself

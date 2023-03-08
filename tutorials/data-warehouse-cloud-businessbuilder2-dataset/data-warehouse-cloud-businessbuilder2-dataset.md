@@ -9,11 +9,11 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Create an Analytical Dataset in the Business Builder
-<!-- description --> Create a new analytical dataset with measures and attributes in the Business Builder of SAP Data Warehouse Cloud.
+<!-- description --> Create a new analytical dataset with measures and attributes in the Business Builder of SAP Datasphere.
 
 ## Prerequisites
-- Understand the Business Builder in SAP Data Warehouse Cloud
-- Have at least one table or view with at least one measure created and deployed in the data layer of SAP Data Warehouse Cloud
+- Understand the Business Builder in SAP Datasphere
+- Have at least one table or view with at least one measure created and deployed in the data layer of SAP Datasphere
 
 ## You will learn
 - How to create a new analytical dataset
@@ -28,14 +28,14 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ## Intro
 
 
-In this tutorial, you will see an example dataset that contains information about sales. Please keep in mind that any data that will be used in the Business Builder needs to first be connected to or imported into SAP Data Warehouse Cloud before you can start creating business objects with Business Builder.
+In this tutorial, you will see an example dataset that contains information about sales. Please keep in mind that any data that will be used in the Business Builder needs to first be connected to or imported into SAP Datasphere before you can start creating business objects with Business Builder.
 
 ---
 
 ### Create a new analytical dataset
 
 
-1.	In SAP Data Warehouse Cloud, click on the **Business Builder** icon.
+1.	In SAP Datasphere, click on the **Business Builder** icon.
 
 2.	Then, click on **New Analytical Dataset**.
 
@@ -170,7 +170,7 @@ Now you can see the preview, as well as adjust it by using the sidebar on the le
 
 ![T02 - Picture 07](T02 - Picture 07.png)
 
-> You have completed the second tutorial of this group! Now you know how to create an analytical dataset in the Business Builder of SAP Data Warehouse cloud.
+> You have completed the second tutorial of this group! Now you know how to create an analytical dataset in the Business Builder of SAP Datasphere.
 
 > Learn in the next tutorial how to create a dimension in the Business Builder.
 

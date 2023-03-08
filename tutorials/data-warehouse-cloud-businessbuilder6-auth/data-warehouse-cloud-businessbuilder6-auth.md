@@ -9,21 +9,21 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Create an Authorization Scenario in the Business Builder
-<!-- description --> Create authorization scenarios in the Business Builder of SAP Data Warehouse Cloud to control who can access your business models.
+<!-- description --> Create authorization scenarios in the Business Builder of SAP Datasphere to control who can access your business models.
 
 ## Prerequisites
-- Understand the Business Builder in SAP Data Warehouse Cloud
-- Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Data Warehouse Cloud
+- Understand the Business Builder in SAP Datasphere
+- Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Datasphere
 - Have at least one analytical dataset, dimension, or fact model created with the Business Builder
 - Have at least one data access control created
 
 ## You will learn
-- What are data access controls in SAP Data Warehouse Cloud
+- What are data access controls in SAP Datasphere
 - How to create a new authorization scenario
 - How to apply an authorization scenario to a business entity
 
 ## Intro
-Every authorization scenario requires at least one data access control, which you can create in the Data Access Control area of SAP Data Warehouse Cloud. To understand what data access controls are and how to create them, please see our [technical documentation](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/a032e51c730147c7a1fcac125b4cfe14.html).
+Every authorization scenario requires at least one data access control, which you can create in the Data Access Control area of SAP Datasphere. To understand what data access controls are and how to create them, please see our [technical documentation](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/a032e51c730147c7a1fcac125b4cfe14.html).
 
 Authorization scenarios can be created for any business entities created with the Business Builder, as well as consumption models.
 To learn more about authorization scenarios, please see our [technical documentation](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/46d8c42e1b1f421c9735a7cbc6fdba60.html).

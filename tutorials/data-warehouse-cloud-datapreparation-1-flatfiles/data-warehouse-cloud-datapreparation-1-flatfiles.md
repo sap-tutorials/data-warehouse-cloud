@@ -8,10 +8,10 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 # Upload Flat Files and Wrangle Your Data
-<!-- description --> Upload flat files, such as CSV files, in SAP Data Warehouse Cloud and then transform the data using the Data Builder.
+<!-- description --> Upload flat files, such as CSV files, in SAP Datasphere and then transform the data using the Data Builder.
 
 ## You will learn
-- How to upload flat files in the Data Builder of SAP Data Warehouse Cloud
+- How to upload flat files in the Data Builder of SAP Datasphere
 - How to make the best of the Data Builder capabilities during a file upload process
 - How to transform the data for data consistency and integrity
 
@@ -24,9 +24,9 @@ Data Wrangling is the process used to clean and convert data from one format and
 ### Upload a CSV file
 
 
-1.	In the SAP Data Warehouse Cloud welcome page, click on **Data Builder** on the menu on the left-hand side.
+1.	In the SAP Datasphere welcome page, click on **Data Builder** on the menu on the left-hand side.
 
-    <!-- border -->![DWC](New_DWC.png)
+    <!-- border -->![DWC](DS_Homescreen_DataBuilder.png)
 
 2.	Choose the space in which you would like to upload and transform the data.
 
@@ -97,9 +97,9 @@ You can again preview the file to see the reflected changes.
 
 > **Well done!**
 >
-> You have completed the first tutorial of this group! Now you know how to upload and transform your data in SAP Data Warehouse Cloud.
+> You have completed the first tutorial of this group! Now you know how to upload and transform your data in SAP Datasphere.
 
-> Learn in the next tutorial how to integrate and monitor your data in SAP Data Warehouse Cloud.
+> Learn in the next tutorial how to integrate and monitor your data in SAP Datasphere.
 
 
 

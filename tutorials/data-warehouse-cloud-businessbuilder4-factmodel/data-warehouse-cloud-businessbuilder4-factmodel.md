@@ -9,11 +9,11 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Create a Fact Model in the Business Builder
-<!-- description --> Group analytical datasets and dimensions into fact models in the Business Builder of SAP Data Warehouse Cloud.
+<!-- description --> Group analytical datasets and dimensions into fact models in the Business Builder of SAP Datasphere.
 
 ## Prerequisites
-- Understand the Business Builder in SAP Data Warehouse Cloud
-- Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Data Warehouse Cloud
+- Understand the Business Builder in SAP Datasphere
+- Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Datasphere
 - Have at least one analytical dataset and at least one dimension created with the Business Builder
 
 
@@ -24,7 +24,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 ## Intro
-Fact models in the Business Builder of SAP Data Warehouse Cloud help you group analytical datasets and dimensions, so that it is easier to create a complete consumption model, and then visualize the data in SAP Analytics Cloud or equivalent.
+Fact models in the Business Builder of SAP Datasphere help you group analytical datasets and dimensions, so that it is easier to create a complete consumption model, and then visualize the data in SAP Analytics Cloud or equivalent.
 
 > It is not mandatory to create a fact model before creating a consumption model, but it can help you avoid re-work. For example, if you have 10 different analytical datasets that need to be used in several different consumption models, you can group them in a fact model, and then simply re-use this in every consumption model needed.
 
@@ -34,7 +34,7 @@ Fact models in the Business Builder of SAP Data Warehouse Cloud help you group a
 ### Create a new fact model
 
 
-In the Business Builder of SAP Data Warehouse, start with following these steps:
+In the Business Builder of SAP Datasphere, start with following these steps:
 
 1.	Click on the **New Fact Model** button.
 

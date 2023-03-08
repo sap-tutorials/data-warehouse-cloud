@@ -5,11 +5,11 @@ time: 10
 tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
-# Manage Profile Settings in SAP Data Warehouse Cloud
+# Manage Profile Settings in SAP Datasphere
 <!-- description --> View and change your profile settings.
 
 ## Prerequisites
- - You have [signed up for a free tier tenant](data-warehouse-cloud-1-begin-trial) or are an existing SAP Data Warehouse Cloud customer.
+ - You have [signed up for a SAP Datasphere free tier tenant](data-warehouse-cloud-1-begin-trial) or are an existing SAP Datasphere customer.
 
 ## You will learn
 - How to view your profile settings
@@ -20,19 +20,18 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ### Understand the profile settings
 
 
-To view and edit your profile in SAP Data Warehouse Cloud, click on your user icon in the top right corner of the screen, and then select **Settings**.
+To view and edit your profile in SAP Datasphere, click on your user icon in the top right corner of the screen, and then select **Settings**.
 
-![User Icon](T02 1.png)
 
 The **Settings** dialog will open, where you can find the following information:
 
 -	**User Account** – Your user data including your full name and e-mail address is shown here.
 
--	**Appearance** – The SAP standard theme that is used for the visual appearance of SAP Data Warehouse Cloud.
+-	**Appearance** – The SAP standard theme that is used for the visual appearance of SAP Datasphere.
 
 -	**Language & Region** – You can find language settings, formatting settings and the setting for the currency here.
 
--	**UI Settings** – The UI Settings tab shows the way names are shown in SAP Data Warehouse Cloud, namely the business name or technical name.
+-	**UI Settings** – The UI Settings tab shows the way names are shown in SAP Datasphere, namely the business name or technical name.
 
 -	**Schedule Consent Settings** – Here you can set your decision on authorizing the central scheduling component to run data integration tasks.
 
@@ -45,9 +44,9 @@ The **Settings** dialog will open, where you can find the following information:
 In this section, you can find settings pertaining to language, date, time and currency.
 The following settings can be found here:
 
--	**Language** - Here, you can choose a language to view SAP Data Warehouse Cloud in.  
+-	**Language** - Here, you can choose a language to view SAP Datasphere in.  
 
--	**Data Access Language** - Here you can find information about the default language SAP Data Warehouse Cloud. Currently, the default language is English.
+-	**Data Access Language** - Here you can find information about the default language SAP Datasphere. Currently, the default language is English.
 
 -	**Date Formatting** - Choose a date format from the list. You can see examples in brackets.
 
@@ -64,15 +63,13 @@ The following settings can be found here:
 ### Change the interface settings
 
 
-By default, in every modeling interface of your SAP Data Warehouse Cloud tenant you see your object's business name. To switch to the default of its technical name, go to **UI Settings** under your profile settings, and choose Show Technical Name.
-
-![UI Settings](T02 2.png)
+By default, in every modeling interface of your SAP Datasphere tenant you see your object's business name. To switch to the default of its technical name, go to **UI Settings** under your profile settings, and choose Show Technical Name.
 
 
 ### Schedule consent settings
 
 
-The job scheduling component of SAP Data Warehouse Cloud needs the consent of the owner of the schedule to run scheduled tasks on the owner's behalf. Here, you can give or revoke your consent to SAP Data Warehouse Cloud to let the scheduling component run tasks with schedules owned by you in the future.
+The job scheduling component of SAP Datasphere needs the consent of the owner of the schedule to run scheduled tasks on the owner's behalf. Here, you can give or revoke your consent to SAP Datasphere to let the scheduling component run tasks with schedules owned by you in the future.
 
 You can schedule data integration tasks such as data replication, persisting views, or executing data flows. Scheduled tasks run asynchronously and recurrently in the background according to the settings defined in the schedule.
 
@@ -82,9 +79,9 @@ Your consent is valid for 12 months. After the consent has expired, a log inform
 
 >**Well done!**
 
-> You have completed the 2nd tutorial of this group. Now you know how to work with your profile settings in SAP Data Warehouse Cloud.
+> You have completed the 2nd tutorial of this group. Now you know how to work with your profile settings in SAP Datasphere.
 
-> Learn in the next tutorial [how to add users and manage roles](data-warehouse-cloud-3-add-users) in SAP Data Warehouse Cloud.
+> Learn in the next tutorial [how to add users and manage roles](data-warehouse-cloud-3-add-users) in SAP Datasphere.
 
 
 ### Test yourself

@@ -1,4 +1,4 @@
----
+---View
 parser: v2
 auto_validation: true
 time: 10
@@ -7,24 +7,24 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Preview and Transform Your Data in a Graphical View
-<!-- description --> Preview data in SAP Data Warehouse Cloud and further add join cardinalities and convert a graphical view to SQL statements.
+<!-- description --> Preview data in SAP Datasphere and further add join cardinalities and convert a graphical view to SQL statements.
 
 ## You will learn
-- How to preview the data in Data Builder
+- How to preview the data in Data Builder 
 - How to sort and filter data
 - About the different types of join cardinalities
 - How to convert your graphical view to SQL statements
 
 
 ## Intro
-The Data Builder in SAP Data Warehouse Cloud comes with easy and effective data preview options to help you analyzing data. Join cardinalities and one click SQL statements from a graphical view are the additional accessories to model your data effortlessly.
+The Data Builder in SAP Datasphere comes with easy and effective data preview options to help you analyzing data. Join cardinalities and one click SQL statements from a graphical view are the additional accessories to model your data effortlessly.
 
 ---
 
 ### Access the Data Preview panel
 
 
-1.	Go to the **Data Builder** in SAP Data Warehouse Cloud and select your space to see your tables and views listed. Click on the desired table or view for the data preview.
+1.	Go to the **Data Builder** in SAP Datasphere and select your space to see your tables and views listed. Click on the desired table or view for the data preview.
 
 2.	Click on the view icon to preview the data. You can click on this icon to show or hide the data preview.
 
@@ -76,7 +76,7 @@ This allows you to find specific data easily and increases the usability of the 
 
 ### Understand join cardinalities
 
-The cardinality between two or more tables shows how the join relationships are between rows of one table and rows in a second table, that is, it describes how many entries of one table correspond to the entries of another table. **Join cardinalities** enables optimized database execution plans and performance. Please see here the types of join cardinalities that SAP Data Warehouse Cloud supports in the graphical view builder.
+The cardinality between two or more tables shows how the join relationships are between rows of one table and rows in a second table, that is, it describes how many entries of one table correspond to the entries of another table. **Join cardinalities** enables optimized database execution plans and performance. Please see here the types of join cardinalities that SAP Datasphere supports in the graphical view builder.
 
 -	Many to Many
 -	Many to One
@@ -106,7 +106,7 @@ You can now compute and display SQL statements from the graphical view builder. 
 
 The  following steps will guide you through the process of converting a graphical view to SQL statements.
 
-1.	Go to **Data Builder** in SAP Data Warehouse Cloud.
+1.	Go to **Data Builder** in SAP Datasphere.
 
 2.	Open any of your available views, In the below screenshot, you can see a `Sales Order Items` view.
 

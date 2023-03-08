@@ -6,8 +6,8 @@ tags: [ tutorial>intermediate, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Connect Microsoft Excel to SAP Data Warehouse Cloud
-<!-- description --> In this tutorial, you will learn how to connect your SAP Data Warehouse Cloud tenant to Microsoft Excel.
+# Connect Microsoft Excel to SAP Datasphere
+<!-- description --> In this tutorial, you will learn how to connect your SAP Datasphere tenant to Microsoft Excel.
 
 ## Prerequisites
   - You have installed the [ODBC Data Source Administrator (64-bit)](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15)
@@ -15,23 +15,25 @@ primary_tag: software-product>sap-data-warehouse-cloud
   - You have [created a database user](data-warehouse-cloud-intro8-create-databaseuser)
 
 ## You will learn
-  - How to connect Microsoft Excel to SAP Data Warehouse Cloud
+  - How to connect Microsoft Excel to SAP Datasphere
+
+Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While some screenshots in this tutorial reference SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
 ---
 ### Add your IP address to IP allowlist
 
 
-To allow an external BI client in your local network to connect to the database of SAP Data Warehouse Cloud, you need to add the external (public) IPv4 address of the client to an allowlist.
+To allow an external BI client in your local network to connect to the database of SAP Datasphere, you need to add the external (public) IPv4 address of the client to an allowlist.
 
-To do so, navigate to the **Configuration** screen on the bottom left of your SAP Data Warehouse Cloud tenant. Here, you can find the **IP Allowlist** tab, where you can simply click on **Add** and enter the IPv4 address of your system to add it to the allowlist.
+To do so, navigate to the **Configuration** screen on the bottom left of your SAP Datasphere tenant. Here, you can find the **IP Allowlist** tab, where you can simply click on **Add** and enter the IPv4 address of your system to add it to the allowlist.
 
   ![IP Allowlist](T05 7.png)
 
 
-### Ensure entities in SAP Data Warehouse Cloud are consumable
+### Ensure entities in SAP Datasphere are consumable
 
 
-In order to ensure the data entities and models created in your SAP Data Warehouse Cloud tenant are consumable by the BI tool of your choice, it is important to expose them for consumption.
+In order to ensure the data entities and models created in your SAP Datasphere tenant are consumable by the BI tool of your choice, it is important to expose them for consumption.
 If the entity was created in the data builder, simply click on the entity and set the **Expose for Consumption** toggle to **ON** as below.
 
   ![Consumable](T05 5.png)
@@ -45,7 +47,7 @@ If the entity was created in the business builder, the toggle shows up as a **Al
 ### Create an ODBC data source
 
 
-The next step to connecting Microsoft Power BI to SAP Data Warehouse Cloud is creating an ODBC data source. This data source must point to the SAP Data Warehouse Cloud schema using the database user credentials you already have created. To create an ODBC data source, follow the steps below:
+The next step to connecting Microsoft Power BI to SAP Datasphere is creating an ODBC data source. This data source must point to the SAP Datasphere schema using the database user credentials you already have created. To create an ODBC data source, follow the steps below:
 
 1. Open the ODBC Data Source Administrator (64 bit) application. Click on **Add** to add a new data source. Select and add the SAP HANA ODBC driver you have earlier installed. The driver is named **HDBODBC**.
 
@@ -59,7 +61,7 @@ In case the driver cannot be found, re-install it from the [SAP HANA development
 
 
 
-### Connect Microsoft Excel to SAP Data Warehouse Cloud
+### Connect Microsoft Excel to SAP Datasphere
 
 
 1.	With the data now ready to be imported, open the Microsoft Excel application from your system and click on the **Get Data** icon under the **Data** tab. Navigate to **From Other Sources**, and select **From ODBC**.
@@ -70,7 +72,7 @@ In case the driver cannot be found, re-install it from the [SAP HANA development
 
     ![Global Sales](T06 4.png)
 
-3. Enter the user credentials for the SAP Data Warehouse Cloud database user, and click on **Connect**.
+3. Enter the user credentials for the SAP Datasphere database user, and click on **Connect**.
 
     ![Charts](T06 5.png)
 
@@ -86,9 +88,9 @@ And that's it! The data is now available in MS Excel and can be used to create r
 
 >**Well done!**
 
-> You have completed the 6th tutorial of this group! Now you know how to connect Microsoft Excel to SAP Data Warehouse Cloud.
+> You have completed the 6th tutorial of this group! Now you know how to connect Microsoft Excel to SAP Datasphere.
 
-> Learn in the next tutorial [how to connect Microsoft Power BI to SAP Data Warehouse Cloud.](data-warehouse-cloud-bi7-connect-powerbi)
+> Learn in the next tutorial [how to connect Microsoft Power BI to SAP Datasphere.](data-warehouse-cloud-bi7-connect-powerbi)
 
 
 

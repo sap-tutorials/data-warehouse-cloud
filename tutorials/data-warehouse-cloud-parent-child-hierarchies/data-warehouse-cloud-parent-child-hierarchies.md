@@ -6,16 +6,16 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Create Parent-Child Hierarchies in SAP Data Warehouse Cloud
+# Create Parent-Child Hierarchies in SAP Datasphere
 <!-- description --> Create a parent-child hierarchy (PCH), a hierarchy in a standard dimension that contains a parent attribute.
 
 ## Prerequisites
- - You have [familiarized yourself with the SAP Data Warehouse Cloud overview and architecture](data-warehouse-cloud-2-interface).
+ - You have [familiarized yourself with the SAP Datasphere overview and architecture](data-warehouse-cloud-2-interface).
  - You have imported your dataset into the data builder.
 
 
 ## You will learn
-  - How to create a parent-child hierarchy in SAP Data Warehouse Cloud
+  - How to create a parent-child hierarchy in SAP Datasphere
 
 ---
 
@@ -67,9 +67,9 @@ A few constraints of a parent-child hierarchy include:
 
 >**Well done!**
 
-> You have completed the 1st tutorial of this group! Now you know how to create a parent-child hierarchy in SAP Data Warehouse Cloud.
+> You have completed the 1st tutorial of this group! Now you know how to create a parent-child hierarchy in SAP Datasphere.
 
-> Learn in the next tutorial [how to create a level-based hierarchy in SAP Data Warehouse Cloud.](data-warehouse-cloud-parent-child-hierarchies)
+> Learn in the next tutorial [how to create a level-based hierarchy in SAP Datasphere.](data-warehouse-cloud-parent-child-hierarchies)
 
 
 

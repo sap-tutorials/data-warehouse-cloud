@@ -6,17 +6,17 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Create and Monitor a Space in SAP Data Warehouse Cloud
-<!-- description --> In this tutorial, learn how to create and monitor a Space. This is where you and your team will work towards fulfilling your objective with SAP Data Warehouse Cloud.
+# Create and Monitor a Space in SAP Datasphere
+<!-- description --> In this tutorial, learn how to create and monitor a Space. This is where you and your team will work towards fulfilling your objective with SAP Datasphere.
 
 ## Prerequisites
- - You have [familiarised yourself with the SAP Data Warehouse Cloud interface.](data-warehouse-cloud-2-interface)
+ - You have [familiarised yourself with the SAP Datasphere interface.](data-warehouse-cloud-2-interface)
 
 ## You will learn
   - How to create a Space
   - How to manage and monitor your Space
 
-  You can also follow the steps in this tutorial by watching this video
+  You can also follow the steps in this tutorial by watching this video. Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While this video references SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
   <iframe id="kmsembed-1_r6zmq7wk" width="421" height="300" src="https://video.sap.com/embed/secure/iframe/entryId/1_r6zmq7wk/uiConfId/30317401/pbc/122287171/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="T04 - Create your Space in SAP Data Warehouse Cloud"></iframe>
 
@@ -25,15 +25,15 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ### Create a Space
 
 
-1.	To create a Space, click on the Space management icon on the bottom left, and click on the plus symbol on the top right.
+1.	To create a Space, click on the Space management icon on the bottom left, and click on the create button on the top right.
 
-    ![Create Space](T04-Picture1.png)
+    ![Create Space](DS_Space_Overview.png)
 
 2.	Enter a name for your Space. The Space ID will auto populate. In this example, let's call our Space **Best Run Bikes**.
 
     ![Space Name](T04-Picture2.png)
 
-3.	Click on **Create**, and you've successfully created your Space in SAP Data Warehouse Cloud.
+3.	Click on **Create**, and you've successfully created your Space in SAP Datasphere.
 
 
 ### Monitor your Space
@@ -103,11 +103,11 @@ When the Space is locked, operations like uploading data, creating a new user, c
 
 When you click **Unlock Space**, you have 24 hours in which you can delete unwanted data or increase the increase the Space's quota. If you do not take action, the Space remains locked.
 
-It is hence important to manage your Spaces well in order to ensure a smooth experience for you and your team with SAP Data Warehouse Cloud.
+It is hence important to manage your Spaces well in order to ensure a smooth experience for you and your team with SAP Datasphere.
 
 > **Well done!**
 
-> You have completed this tutorial. Now you know how to create and monitor Spaces in SAP Data Warehouse Cloud.
+> You have completed this tutorial. Now you know how to create and monitor Spaces in SAP Datasphere.
 
 
 ### Test yourself

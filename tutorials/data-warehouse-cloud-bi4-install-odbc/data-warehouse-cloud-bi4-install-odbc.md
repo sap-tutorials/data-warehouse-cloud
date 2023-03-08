@@ -7,7 +7,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Install an ODBC Driver for Third-Party BI Client Access
-<!-- description --> Installing an ODBC Driver is the first step towards fully utilizing SAP Data Warehouse Cloud across multiple third-party BI clients and tools. Find out how in this tutorial.
+<!-- description --> Installing an ODBC Driver is the first step towards fully utilizing SAP Datasphere across multiple third-party BI clients and tools. Find out how in this tutorial.
 
 ## Prerequisites
  - You have [created a database user](data-warehouse-cloud-intro8-create-databaseuser)
@@ -19,6 +19,8 @@ primary_tag: software-product>sap-data-warehouse-cloud
 It is extremely important to use the 64-bit or 32-bit of the based on the version of the third-party BI tool you aim to use. (For example, MS Excel 32-bit requires the connection be installed in ODBC Manager 32-bit)
 
 This tutorial covers installing an ODBC driver in both Windows and macOS. For Windows, continue to Step 1, and for macOS, skip to Step 4.
+
+Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While some screenshots in this tutorial reference SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
 
 ---
@@ -34,7 +36,7 @@ Every Windows system comes pre-installed with an ODBC Manager, as shown below. B
 ### Download and install the SAP HANA database server
 
 
-1.	First, install the corresponding driver to connect to the HANA database of SAP Data Warehouse Cloud. To find your driver, navigate to the [HANA developer tools website.](https://tools.eu1.hana.ondemand.com/#hanatools)
+1.	First, install the corresponding driver to connect to the HANA database of SAP Datasphere. To find your driver, navigate to the [HANA developer tools website.](https://tools.eu1.hana.ondemand.com/#hanatools)
 
 2.	Go to the HANA tab, and then you select the corresponding client and click on Windows install.
 
@@ -150,13 +152,13 @@ There exists no native macOS HANA driver, which means you need to install a brid
 
     ![Finish](T04 21.png)
 
-You can now fully leverage the flexibility of SAP Data Warehouse Cloud and connect to the BI tool of your choice.
+You can now fully leverage the flexibility of SAP Datasphere and connect to the BI tool of your choice.
 
 >**Well done!**
 
 > You have completed the 4th tutorial of this group! Now you know how to install an ODBC driver in your system.
 
-> Learn in the next tutorial [how to connect Tableau to SAP Data Warehouse Cloud.](data-warehouse-cloud-bi5-connect-tableau)
+> Learn in the next tutorial [how to connect Tableau to SAP Datasphere.](data-warehouse-cloud-bi5-connect-tableau)
 
 
 

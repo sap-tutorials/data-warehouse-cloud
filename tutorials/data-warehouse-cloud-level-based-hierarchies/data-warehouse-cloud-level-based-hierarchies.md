@@ -6,16 +6,16 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Create Level-Based Hierarchies in SAP Data Warehouse Cloud
+# Create Level-Based Hierarchies in SAP Datasphere
 <!-- description --> Create a level-based hierarchy, a hierarchy in a standard dimension that contains one or more levels of aggregation.
 
 ## Prerequisites
- - You have [familiarised yourself with the SAP Data Warehouse Cloud overview and architecture](data-warehouse-cloud-2-interface).
+ - You have [familiarised yourself with the SAP Datasphere overview and architecture](data-warehouse-cloud-2-interface).
  - You have imported your dataset into the data builder.
 
 
 ## You will learn
-  - How to create a level-based hierarchy in SAP Data Warehouse Cloud
+  - How to create a level-based hierarchy in SAP Datasphere
 
 ---
 
@@ -59,7 +59,7 @@ For instance, a time dimension might have a hierarchy that represents data at th
 
 >**Well done!**
 
-> You have completed the create hierarchies with SAP Data Warehouse Cloud tutorial group. Now it is time to continue learning. Please check out the other SAP Data Warehouse Cloud tutorials available here, and don't forget to follow the SAP Data Warehouse Cloud tag in the [SAP Community](http://community.sap.com) to hear about the most up to date product news.
+> You have completed the create hierarchies with SAP Datasphere tutorial group. Now it is time to continue learning. Please check out the other SAP Datasphere tutorials available here, and don't forget to follow the SAP Datasphere tag in the [SAP Community](http://community.sap.com) to hear about the most up to date product news.
 
 
 

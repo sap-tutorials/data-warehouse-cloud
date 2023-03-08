@@ -7,10 +7,10 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Generate Time Table and Dimensions 
-<!-- description --> Create time tables and dimensions in SAP Data Warehouse Cloudת which then allows you to gather insights with year, quarter, month and day granularities.
+<!-- description --> Create time tables and dimensions in SAP Datasphere which then allows you to gather insights with year, quarter, month and day granularities.
 
 ## Prerequisites
-- Have at least one graphical view created and deployed in SAP Data Warehouse Cloud -- see [Model Data with a Graphical View](data-warehouse-cloud-graphical1-model).
+- Have at least one graphical view created and deployed in SAP Datasphere -- see [Model Data with a Graphical View](data-warehouse-cloud-graphical1-model).
 - Have a date field in your dataset or views to be analyzed
 
 
@@ -22,7 +22,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ## Intro
 Let's suppose you have two columns named `Product` and `Createdat` with the values of `'product_x'` and `'20210707'` in your dataset or view.
 
-You can easily associate the `Createdat` field with the time dimensions in SAP Data Warehouse Cloud to get `'20210707'` and year, quarter, month and day columns for the `Product_x` additionally.
+You can easily associate the `Createdat` field with the time dimensions in SAP Datasphere to get `'20210707'` and year, quarter, month and day columns for the `Product_x` additionally.
 
 You can then for example visualize the sales of `Product_x` throughout the year 2021 to see the months, days, quarter wise analysis.
 
@@ -33,7 +33,7 @@ You can then for example visualize the sales of `Product_x` throughout the year 
 ### Access time data
 
 
-1.	Go to the space management icon in the SAP Data Warehouse Cloud and navigate to the time data area or click on the time data tab.
+1.	Go to the space management icon in the SAP Datasphere and navigate to the time data area or click on the time data tab.
 
 2.	Click on **Create timetables and dimensions**.
 
@@ -72,7 +72,7 @@ You can then for example visualize the sales of `Product_x` throughout the year 
 
 > **Well done!**
 >
-> You have completed the Basic Data Modeling with Graphical Views tutorial group in SAP Data Warehouse Cloud. Now it is time to continue learning. Please check out the other [SAP Data Warehouse Cloud tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the [SAP Data Warehouse Cloud tag](https://blogs.sap.com/tags/73555000100800002141/) in the SAP Community to hear about the most up to date product news.
+> You have completed the Basic Data Modeling with Graphical Views tutorial group in SAP Datasphere. Now it is time to continue learning. Please check out the other [SAP Datasphere tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the SAP Datasphere tag in the SAP Community to hear about the most up to date product news.
 
 
 
