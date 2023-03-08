@@ -7,21 +7,21 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Connect Your Space to an SAP HANA Cloud, Data Lake
-<!-- description --> Connect your SAP Data Warehouse Cloud Space to the SAP HANA Cloud, data lake to gain more storage to handle petabytes of data.
+<!-- description --> Connect your SAP Datasphere Space to the SAP HANA Cloud, data lake to gain more storage to handle petabytes of data.
 
 ## Prerequisites
- - You have [familiarised yourself with the SAP Data Warehouse Cloud interface.](data-warehouse-cloud-2-interface)
- - You have [created at least one Space in SAP Data Warehouse Cloud.](data-warehouse-cloud-4-spaces)
+ - You have [familiarised yourself with the SAP Datasphere interface.](data-warehouse-cloud-2-interface)
+ - You have [created at least one Space in SAP Datasphere.](data-warehouse-cloud-4-spaces)
 
 ## You will learn
-  - How to connect your SAP Data Warehouse Cloud Space to the SAP HANA Cloud, data lake
+  - How to connect your SAP Datasphere Space to the SAP HANA Cloud, data lake
 
 ## Intro
 To get familiar with the SAP HANA Cloud, data lake, please see the [SAP HANA Cloud product page.](https://www.sap.com/products/hana/cloud.html) You can also discover the data lake capabilities in detail with this [SAP HANA Cloud, data lake mission.](mission.hana-cloud-data-lake-get-started)
 
-To use a data lake associated with SAP Data Warehouse Cloud tenant, you need to open a support ticket. Please see more details here in the [technical documentation.](https://help.sap.com/viewer/9f804b8efa8043539289f42f372c4862/cloud/en-US/93d0b5d4faa24777a4b78513f7ed6172.html?q=data%20lake)
+To use a data lake associated with SAP Datasphere tenant, you need to open a support ticket. Please see more details here in the [technical documentation.](https://help.sap.com/viewer/9f804b8efa8043539289f42f372c4862/cloud/en-US/93d0b5d4faa24777a4b78513f7ed6172.html?q=data%20lake)
 
-If you are accessing the data lake via SAP Data Warehouse Cloud, you can only use a single user in the SAP HANA Cloud, data lake.
+If you are accessing the data lake via SAP Datasphere, you can only use a single user in the SAP HANA Cloud, data lake.
 
 
 ---
@@ -29,7 +29,7 @@ If you are accessing the data lake via SAP Data Warehouse Cloud, you can only us
 ### Connect your Space to SAP HANA Cloud, data lake
 
 
-You can access tables in the data lake via virtual tables in the open SQL schema in SAP Data Warehouse Cloud, once the data lake is connected to your SAP Data Warehouse Cloud tenant. These tables can also be consumed in the Data Builder.
+You can access tables in the data lake via virtual tables in the open SQL schema in SAP Datasphere, once the data lake is connected to your SAP Datasphere tenant. These tables can also be consumed in the Data Builder.
 
 > DDL statements in your data lake are currently not audited.
 
@@ -47,7 +47,7 @@ You can now use your preferred SQL tool to create tables in data lake and access
 ### Create and access your virtual tables in data lake
 
 
-1. SAP Data Warehouse Cloud offers two stored procedures that you can use to easily create and access the tables. For more information and examples on the stored procedures, see the [technical documentation.](https://help.sap.com/viewer/9f804b8efa8043539289f42f372c4862/cloud/en-US/12b6825ac6d34db9902460f665cfcb88.html)
+1. SAP Datasphere offers two stored procedures that you can use to easily create and access the tables. For more information and examples on the stored procedures, see the [technical documentation.](https://help.sap.com/viewer/9f804b8efa8043539289f42f372c4862/cloud/en-US/12b6825ac6d34db9902460f665cfcb88.html)
 
 2. In your SQL tool, use the `"DWC_GLOBAL"."DATA_LAKE_EXECUTE" ( IN STMT NCLOB )` stored procedure in the schema `DWC_GLOBAL` to create tables in data lake. Please note, that the statements issued via this procedure are not audited.
 
@@ -70,7 +70,7 @@ You can then work with your virtual tables in the **Data Builder** by selecting 
 
 > **Well done!**
 
-> You have completed the Introduction to SAP Data Warehouse Cloud Administration tutorial group. Now it's time to continue learning. Please check out the other SAP Data Warehouse Cloud tutorials [available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the SAP Data Warehouse Cloud tag in the SAP Community to hear about the most up to date product news.
+> You have completed the Introduction to SAP Datasphere Administration tutorial group. Now it's time to continue learning. Please check out the other SAP Datasphere tutorials [available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the SAP Datasphere tag in the SAP Community to hear about the most up to date product news.
 
 
 

@@ -6,8 +6,8 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Create a Graphical View in SAP Data Warehouse Cloud
-<!-- description --> With SAP Data Warehouse Cloud, you can use a graphical interface to create data views. You can drag and drop sources, join them as appropriate, add other operators to transform your data, and specify measures and other aspects of your output structure in the output node.
+# Create a Graphical View in SAP Datasphere
+<!-- description --> With SAP Datasphere, you can use a graphical interface to create data views. You can drag and drop sources, join them as appropriate, add other operators to transform your data, and specify measures and other aspects of your output structure in the output node.
 
 ## Prerequisites
  - You have [imported your dataset into your Space.](data-warehouse-cloud-5-import-dataset)
@@ -19,12 +19,12 @@ primary_tag: software-product>sap-data-warehouse-cloud
   - How to restore columns in your graphical view
   - How to deploy a graphical view
 
-  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get a holistic view of their sales data by using the power of SAP Data Warehouse Cloud. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Data Warehouse Cloud to help the bike suppliers make the best possible business decisions.
+  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get a holistic view of their sales data by using the power of SAP Datasphere. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Datasphere to help the bike suppliers make the best possible business decisions.
 
   This mission consists of 8 modules that contain the necessary steps you need to follow in your mission to help Best Run Bikes:
 
-  1. [Sign up for free tier tenant.](data-warehouse-cloud-1-begin-trial)
-  2. [Get to know the SAP Data Warehouse Cloud interface](data-warehouse-cloud-2-interface)
+  1. [Sign up for a SAP Datasphere free tier tenant.](data-warehouse-cloud-1-begin-trial)
+  2. [Get to know the SAP Datasphere interface](data-warehouse-cloud-2-interface)
   3. [Add users and assign roles](data-warehouse-cloud-3-add-users)
   4. [Create your Space](data-warehouse-cloud-4-spaces)
   5. [Import your datasets](data-warehouse-cloud-5-import-dataset)
@@ -32,7 +32,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
   7. **You are here ->** [Create a graphical view model](data-warehouse-cloud-7-graphicalview)
   8. [Define measures, business semantics and preview your data](data-warehouse-cloud-8-define-measures)
 
-  You can also follow the steps in this tutorial by watching this video
+  You can also follow the steps in this tutorial by watching this video. Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While this video references SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
   <iframe id="kmsembed-1_7wphfgec" width="421" height="300" src="https://video.sap.com/embed/secure/iframe/entryId/1_7wphfgec/uiConfId/30317401/pbc/122287171/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="T07-Create a Graphical View in SAP Data Warehouse Cloud"></iframe>
 
@@ -41,9 +41,9 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ### Get to know the graphical views
 
 
-In SAP Data Warehouse Cloud, you can use the graphical view builder to easily create data views. This allows you to work intuitively without having to be familiar with SQL statements.
+In SAP Datasphere, you can use the graphical view builder to easily create data views. This allows you to work intuitively without having to be familiar with SQL statements.
 
-In the graphical view builder, you have many resources to model your data, combine them from many sources and assigning business semantics that make your output easier to understand. Here is an example of a graphical view modelled in SAP Data Warehouse Cloud.
+In the graphical view builder, you have many resources to model your data, combine them from many sources and assigning business semantics that make your output easier to understand. Here is an example of a graphical view modelled in SAP Datasphere.
 
 ![Example of Graphical View](T07-Picture1.png)
 
@@ -125,7 +125,7 @@ With the graphical view in place, rename some columns to help others understand 
 ### Save and deploy
 
 
-You have successfully created your graphical view. It is now extremely important to first save, and then deploy your view. When you save an object, it is stored in the SAP Data Warehouse Cloud repository, which contains the design-time definitions of all your objects. When you deploy an object, you are creating a run-time version for use in the SAP Data Warehouse Cloud database.
+You have successfully created your graphical view. It is now extremely important to first save, and then deploy your view. When you save an object, it is stored in the SAP Datasphere repository, which contains the design-time definitions of all your objects. When you deploy an object, you are creating a run-time version for use in the SAP Datasphere database.
 
 Click on the save icon on the top left and give your graphical view an appropriate name.
 

@@ -7,7 +7,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 
-# Integrate and Monitor Data with SAP Data Warehouse Cloud
+# Integrate and Monitor Data with SAP Datasphere
 <!-- description --> Get started with Data Integration Monitor, which allows you to monitor the frequency and status of data loads for each table within a Space.
 
 ## You will learn
@@ -17,23 +17,23 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 ## Intro
-The Data Integration Monitor helps you to monitor and manage table replication from sources outside of SAP Data Warehouse Cloud, showing you the frequency of data refresh. It makes it easy to see how many tables you have, how much space they are using, and which actions were recently performed on them. It allows you also to replicate data, create persistent views, analyse remote connections, and get details of these actions.
+The Data Integration Monitor helps you to monitor and manage table replication from sources outside of SAP Datasphere, showing you the frequency of data refresh. It makes it easy to see how many tables you have, how much space they are using, and which actions were recently performed on them. It allows you also to replicate data, create persistent views, analyse remote connections, and get details of these actions.
 
-> CSV files uploaded directly to SAP Data Warehouse Cloud are not monitored.
+> CSV files uploaded directly to SAP Datasphere are not monitored.
 
 
 ---
 
-### Access the Data Integration Monitor
+### Access the Data Integration Monitor 
 
 
-1.	In SAP Data Warehouse Cloud, click on the **Data Integration** icon on the left- side menu.
+1.	In SAP Datasphere, click on the **Data Integration** icon on the left- side menu.
 
-    <!-- border -->![DIM](DIM.png)
+    <!-- border -->![DIM](DS_Homescreen_DIM.png)
 
 2.	Choose your Space and you see the **Remote Table Monitor** dashboard.
 
-    <!-- border -->![RTM](T02 - Dashboard.png)
+    <!-- border -->![RTM](T02%20-%20Dashboard.png)
 
 Here you can see an overview of all remote tables that currently exist in this Space.
 
@@ -60,7 +60,7 @@ You can change the way the list is sorted or filter it to find more easily the i
 
 From this main list, you can drill down further by clicking on the drill down icon on the right of the dashboard. This can help you understand how often a table is loaded and what is the status of each time the table was loaded, that is, each time the data within this table was refreshed.
 
-  <!-- border -->![Drill down](T02 - drilldown.png)
+  <!-- border -->![Drill down](T02%20-%20drilldown.png)
 
 You will also be able to go directly from here into the table editing feature of the Data Builder. Click on the open in editor option on the top right to do so.
 
@@ -96,7 +96,7 @@ The Data Flow Monitor is where you view and monitor the details of the executed 
 
 **Remote Query Monitor**
 
-The Remote Query Monitor is where you check and analyse how the communication is running between the underlying database of SAP Data Warehouse Cloud, which is SAP HANA Cloud; SAP HANA database, and the connected remote source systems.
+The Remote Query Monitor is where you check and analyse how the communication is running between the underlying database of SAP Datasphere, which is SAP HANA Cloud; SAP HANA database, and the connected remote source systems.
 
 
 
@@ -104,7 +104,7 @@ The Remote Query Monitor is where you check and analyse how the communication is
 >
 > You have completed the second tutorial of this group! Now you understand the how to access the Data Integration Monitor and what you can use it for.
 
-> Learn more about the Remote Table Monitor in SAP Data Warehouse Cloud in the next tutorial.
+> Learn more about the Remote Table Monitor in SAP Datasphere in the next tutorial.
 
 
 

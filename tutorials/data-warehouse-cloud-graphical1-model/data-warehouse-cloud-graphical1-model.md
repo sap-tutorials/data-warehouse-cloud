@@ -7,10 +7,10 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Model Data with a Graphical View 
-<!-- description --> Get started with graphical views using the Data Builder in SAP Data Warehouse Cloud, which helps you to create and visualize the data model.
+<!-- description --> Get started with graphical views using the Data Builder in SAP Datasphere, which helps you to create and visualize the data model.
 
 ## Prerequisites
- - You have your SAP Data Warehouse Cloud account or a [trial account](https://www.sap.com/products/data-warehouse-cloud/trial.html)
+ - You have your SAP Datasphere account or a [SAP Datasphere free tier tenant](https://www.sap.com/products/data-warehouse-cloud/trial.html)
  - You have imported your dataset into your Space.
 
 ## You will learn
@@ -22,11 +22,11 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 ## Intro
-In the **Data Builder** of SAP Data Warehouse Cloud, you will learn how to create a graphical view to query sources in an intuitive graphical interface. You can drag and drop sources (table or views) to join them as needed. You can also add other operators to remove or create columns and filter or aggregate data.
+In the **Data Builder** of SAP Datasphere, you will learn how to create a graphical view to query sources in an intuitive graphical interface. You can drag and drop sources (table or views) to join them as needed. You can also add other operators to remove or create columns and filter or aggregate data.
 
 If you are unsure what data modeling means, or what a joins and unions are, please use our **community blog posts** to get familiar with these concepts:
 
-•	[Data Modeling in SAP Data Warehouse Cloud](https://blogs.sap.com/2021/07/20/data-modeling-in-sap-data-warehouse-cloud/)
+•	[Data Modeling in SAP Datasphere](https://blogs.sap.com/2021/07/20/data-modeling-in-sap-data-warehouse-cloud/)
 
 •	[Facts, Measures and Dimensions](https://blogs.sap.com/2021/07/22/facts-measures-and-dimensions/)
 
@@ -39,13 +39,13 @@ If you are unsure what data modeling means, or what a joins and unions are, plea
 ### Create a new view
 
 
-To start modeling your data using the graphical view in the Data Builder of SAP Data Warehouse Cloud, follow these steps:
+To start modeling your data using the graphical view in the Data Builder of SAP Datasphere, follow these steps:
 
-1.  Go to the **Data Builder** in the controls menu of left hand side of the SAP Data Warehouse Cloud welcome page and select the Space in which you want to model your data. You need, of course, to have access to this Space in order to create a new view in it.
+1.  Go to the **Data Builder** in the controls menu of left hand side of the SAP Datasphere welcome page and select the Space in which you want to model your data. You need, of course, to have access to this Space in order to create a new view in it.
 
 2.  Then, click on **New Graphical View**.
 
-    <!-- border -->![New Graphical View](New_DWC.png)
+    <!-- border -->![New Graphical View](DS_Homescreen_DataBuilder.png)
 
 3.  This is your canvas to start modeling. Use the left side panel to select your data source. You can either use the data already in the **Repository** of this Space or select from the **Sources** connected to this Space.
 
@@ -112,7 +112,7 @@ To start modeling your data using the graphical view in the Data Builder of SAP 
 
     <!-- border -->![Filter Properties](Picture11.png)
 
-3.	Another transformation you can do with SAP Data Warehouse Cloud is to create a new calculated column and add it to your output. To start, just click on the `fx` icon next to the output, a projection, or a join node.
+3.	Another transformation you can do with SAP Datasphere is to create a new calculated column and add it to your output. To start, just click on the `fx` icon next to the output, a projection, or a join node.
 
     <!-- border -->![fx Calculated Column](Picture12.png)
 
@@ -137,9 +137,9 @@ But you can directly click on the **Deploy** icon to deploy your data model, whi
 
 > **Well done!**
 >
-> You have completed the first tutorial of this group! Now you know how to model data with a graphical view in SAP Data Warehouse Cloud.
+> You have completed the first tutorial of this group! Now you know how to model data with a graphical view in SAP Datasphere.
 
-> Learn in the next tutorial how to preview, filter, change the joins and obtain the SQL statements for your graphical data view in SAP Data Warehouse Cloud.
+> Learn in the next tutorial how to preview, filter, change the joins and obtain the SQL statements for your graphical data view in SAP Datasphere.
 
 
 

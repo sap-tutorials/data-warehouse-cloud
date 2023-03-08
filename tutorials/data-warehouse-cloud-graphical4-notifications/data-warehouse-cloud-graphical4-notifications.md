@@ -1,4 +1,4 @@
----
+---v2
 parser: v2
 auto_validation: true
 time: 5
@@ -6,11 +6,11 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Use Notification Bubbles in SAP Data Warehouse Cloud
-<!-- description --> Understand notification bubbles in SAP Data Warehouse Cloud, whose purpose is to signal changes that happen in the data models as well as their severity.
+# Use Notification Bubbles in SAP Datasphere
+<!-- description --> Understand notification bubbles in SAP Datasphere, whose purpose is to signal changes that happen in the data models as well as their severity.
 
 ## Prerequisites
-- Have at least one graphical view created and deployed in SAP Data Warehouse Cloud -- see [Model Data with a Graphical View](data-warehouse-cloud-graphical1-model).
+- Have at least one graphical view created and deployed in SAP Datasphere -- see [Model Data with a Graphical View](data-warehouse-cloud-graphical1-model).
 
 ## You will learn
 - How to understand different notification bubbles
@@ -19,8 +19,8 @@ primary_tag: software-product>sap-data-warehouse-cloud
 - How can you make use of error bubbles
 
 
-## Intro
-The notification bubbles in SAP Data Warehouse cloud are not just notifications! A click on a bubble will give you additional information and suggest actions to resolve any underlying issues.
+## Intro 
+The notification bubbles in SAP Datasphere are not just notifications! A click on a bubble will give you additional information and suggest actions to resolve any underlying issues.
 
 ---
 
@@ -60,7 +60,7 @@ Some of the examples create an impossible join condition or having a syntax erro
 
 > **Well done!**
 >
-> You have completed the 4th tutorial of this group/mission! Now you know how to make use of different notification bubbles.
+> You have completed the 4th tutorial of this group! Now you know how to make use of different notification bubbles.
 
 > Learn in the next tutorial how to generate time tables and dimensions.
 

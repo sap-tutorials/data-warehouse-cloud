@@ -7,7 +7,7 @@ primary_tag: software-product>sap-analytics-cloud
 ---
 
 # Get started with Guided Experiences
-<!-- description --> Get a guided, hands-on experience with SAP Analytics Cloud and SAP Data Warehouse Cloud.
+<!-- description --> Get a guided, hands-on experience with SAP Analytics Cloud and SAP Datasphere.
 
 ## Prerequisites
  - To register for a guided experience, all you need is a [sap.com account](https://www.sap.com/registration/protected/form-universal-reg.afl.html?generalRegistration=true).
@@ -15,6 +15,8 @@ primary_tag: software-product>sap-analytics-cloud
 ## You will learn
   - What a guided experience is
   - How to register for a guided experience
+
+Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While this tutorial may reference SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
 ## Intro
 Note: A guided experience aims to introduce important workflows and core features so not all features will be showcased in the experience.
@@ -38,12 +40,12 @@ Users are shown what to do and where to click, along with explanations of each a
 ### Register for a guided experience
 
 
-There are guided experiences for SAP Analytics Cloud and SAP Data Warehouse Cloud.
+There are guided experiences for SAP Analytics Cloud and SAP Datasphere.
 
 To register for a guided experience, click the "Experience" buttons at the top of these pages:
 
 -	[SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html)
--	[SAP Data Warehouse Cloud](https://www.sap.com/products/technology-platform/data-warehouse-cloud.html)
+-	[SAP Datasphere](https://www.sap.com/products/technology-platform/data-warehouse-cloud.html)
 
 To register for a guided experience, all you need is a [sap.com account](https://www.sap.com/registration/protected/form-universal-reg.afl.html?generalRegistration=true). If you do not have an sap.com account yet, you will be prompted to create one.
 

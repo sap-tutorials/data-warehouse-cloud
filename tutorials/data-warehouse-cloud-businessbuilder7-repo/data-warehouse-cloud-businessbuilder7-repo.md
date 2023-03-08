@@ -9,7 +9,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Collaborate with the Repository Explorer
-<!-- description --> Collaborate with other users of SAP Data Warehouse Cloud using the Repository Explorer.
+<!-- description --> Collaborate with other users of SAP Datasphere using the Repository Explorer.
 
 ## You will learn
 - What the Repository Explorer can be used for
@@ -20,7 +20,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 - How to share an object between Spaces
 
 ## Intro
-The Repository Explorer is the central point to find, manage, and collaborate on all views, business entities, tables and any kind of entities within SAP Data Warehouse Cloud.
+The Repository Explorer is the central point to find, manage, and collaborate on all views, business entities, tables and any kind of entities within SAP Datasphere.
 
 ---
 
@@ -28,7 +28,7 @@ The Repository Explorer is the central point to find, manage, and collaborate on
 
 
 
-The Repository Explorer is a place to secure and organize entities within SAP Data Warehouse Cloud.
+The Repository Explorer is a place to secure and organize entities within SAP Datasphere.
 
 All entities are shown here according to Space permissions, so users will only see the entities they have access to. Currently, all files within a Space are accessible to all members of that Space.
 
@@ -44,7 +44,7 @@ With the Repository Explorer, you can:
 
 - Copy existing objects
 
-- Share data models with other users of SAP Data Warehouse Cloud
+- Share data models with other users of SAP Datasphere
 
 - Trace the lineage of your data
 
@@ -77,7 +77,7 @@ Use the left sidebar to enable all available filters.
 ### Create collections and favorite objects
 
 
-The collections in SAP Data Warehouse Cloud are predefined by the system, such as the recent entities. This includes all entities that you have modified or edited. It also allows you to quickly see all entities that you have created or shared.
+The collections in SAP Datasphere are predefined by the system, such as the recent entities. This includes all entities that you have modified or edited. It also allows you to quickly see all entities that you have created or shared.
 
 ![Repository](T07 - Picture 04.png)
 
@@ -122,7 +122,7 @@ To go back to the Repository Explorer, just click on **Close**.
 
 > You have completed the last tutorial of this group! Now you know how to use the Repository Explorer.
 
-> Now it's time to continue learning. Please check out the other [SAP Data Warehouse Cloud tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the [SAP Data Warehouse Cloud tag](https://blogs.sap.com/tags/73555000100800002141/) in the SAP Community to hear about the most up to date product news.
+> Now it's time to continue learning. Please check out the other [SAP Datasphere tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the [SAP Datasphere tag](https://https://community.sap.com/) in the SAP Community to hear about the most up to date product news.
 
 
 

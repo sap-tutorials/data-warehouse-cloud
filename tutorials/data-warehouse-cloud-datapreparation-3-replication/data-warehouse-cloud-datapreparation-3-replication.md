@@ -8,8 +8,8 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 
-# Replicate Data into SAP Data Warehouse Cloud
-<!-- description --> Replicate data in real time with the Data Integration Monitor of SAP Data Warehouse Cloud.
+# Replicate Data into SAP Datasphere
+<!-- description --> Replicate data in real time with the Data Integration Monitor of SAP Datasphere.
 
 ## You will learn
 - How to check the type of data access
@@ -18,7 +18,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 ## Intro
-The **Remote Table Monitor** in the Data integration Monitor helps you to manage your access to data in SAP Data Warehouse Cloud. Get started with the user-friendly interface of the Data Integration Monitor and organize your data replication efficiently.
+The **Remote Table Monitor** in the Data integration Monitor helps you to manage your access to data in SAP Datasphere. Get started with the user-friendly interface of the Data Integration Monitor and organize your data replication efficiently.
 
 
 ---
@@ -26,13 +26,13 @@ The **Remote Table Monitor** in the Data integration Monitor helps you to manage
 ### Access the Data Integration Monitor
 
 
-1.	In SAP Data Warehouse Cloud, click on the **Data Integration** icon on the left-side menu.
+1.	In SAP Datasphere, click on the **Data Integration** icon on the left-side menu.
 
-    ![DIM](DIM.png)
+    ![DIM](DS_Homescreen_DIM.png)
 
 2.	Choose your Space and you see the **Remote Table Monitor** dashboard.
 
-    ![Dash](T03 - Dashboard.png)
+    ![Dash](T03%20-%20Dashboard_cropped.png)
 
 3.	Here you can see an overview of all remote tables that currently exist in this Space and are active. The **Type of data access** field indicates if the data is a remote data, a snapshot replica, or if you have real-time access to the data.
 
@@ -44,7 +44,7 @@ The **Remote Table Monitor** in the Data integration Monitor helps you to manage
 
 In the example video above, you can see an example of `SalesOrders` table and `SalesOrderItems` table already existing on the system and the demo starts with a completely federated environment where all the data access is remote. The next steps will guide you to do live replication of data instead of a remote access.
 
-1.	As an example, imagine you have a table created from SAP HANA connection. To confirm this, go to the home page of SAP Data Warehouse Cloud and click on the **Data Builder** icon on the left-hand side of the control menu.
+1.	As an example, imagine you have a table created from SAP HANA connection. To confirm this, go to the home page of SAP Datasphere and click on the **Data Builder** icon on the left-hand side of the control menu.
 
 2.	Choose your Space and click on any of the views for which the `SalesOrders` or the `SalesOrderItems` remote table was used. This opens the modeling canvas.
 
@@ -56,7 +56,7 @@ In the example video above, you can see an example of `SalesOrders` table and `S
 
 6.	From the dropdown menu, select **Enable Real-Time Access** to get the real time data replication of the table.
 
-7.	The status now changes to active. You can do the same for any tables you wish to replicate. Now the views which are dependent on these tables get data from SAP Data Warehouse Cloud replica and is stored locally.
+7.	The status now changes to active. You can do the same for any tables you wish to replicate. Now the views which are dependent on these tables get data from SAP Datasphere replica and is stored locally.
 
 8.	From the same dropdown menu in step 7 you can select load a snapshot replica to have a one-time data replication from remote tables.
 
@@ -70,7 +70,7 @@ In the example video above, you can see an example of `SalesOrders` table and `S
 
 2.	Click on the **Schedule Replication** option on the top right.
 
-    ![Schedule](schedule.png)
+    ![Schedule](schedule_cropped.png)
 
 3.	From the dropdown menu, click on **Edit schedule**.
 
@@ -81,9 +81,9 @@ In the example video above, you can see an example of `SalesOrders` table and `S
 
 > **Well done!**
 >
-> You have completed the third tutorial of this group! Now you know how to create a data replication and schedule them in SAP Data Warehouse Cloud.
+> You have completed the third tutorial of this group! Now you know how to create a data replication and schedule them in SAP Datasphere.
 
-> Learn in the next tutorial learn about **View Persistency** in SAP Data Warehouse Cloud.
+> Learn in the next tutorial learn about **View Persistency** in SAP Datasphere.
 
 
 

@@ -9,11 +9,11 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Create a Consumption Model in the Business Builder
-<!-- description --> Create consumption models in the Business Builder of SAP Data Warehouse Cloud to use the output data in visualization tools, such as SAP Analytics Cloud.
+<!-- description --> Create consumption models in the Business Builder of SAP Datasphere to use the output data in visualization tools, such as SAP Analytics Cloud.
 
 ## Prerequisites
-- Understand the Business Builder in SAP Data Warehouse Cloud
-- Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Data Warehouse Cloud
+- Understand the Business Builder in SAP Datasphere
+- Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Datasphere
 - Have at least one analytical dataset, dimension, or fact model created with the Business Builder
 
 
@@ -25,7 +25,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 
 
 ## Intro
-Consumption models in the Business Builder of SAP Data Warehouse Cloud are the final business model you need to create before sharing your data with a visualization tool, such as SAP Analytics Cloud or equivalent.
+Consumption models in the Business Builder of SAP Datasphere are the final business model you need to create before sharing your data with a visualization tool, such as SAP Analytics Cloud or equivalent.
 
 
 
@@ -37,7 +37,7 @@ To learn more about consumption models, please see our [technical documentation]
 ### Create a new consumption model
 
 
-In the Business Builder of SAP Data Warehouse, start by following these steps:
+In the Business Builder of SAP Datasphere, start by following these steps:
 
 1.	Click on the **New Consumption Model** button.
 
@@ -59,7 +59,7 @@ Your new consumption model is created.
 >
 >   ![T05 - Picture 01](T05 - Picture 01.png)
 >
-> This appears because you have not yet allowed public data access to this consumption model, nor have assigned an authorization scenario to it. You need to give either public data access or a specific authorization, so that this consumption model can be used outside of SAP Data Warehouse Cloud.
+> This appears because you have not yet allowed public data access to this consumption model, nor have assigned an authorization scenario to it. You need to give either public data access or a specific authorization, so that this consumption model can be used outside of SAP Datasphere.
 
 
 

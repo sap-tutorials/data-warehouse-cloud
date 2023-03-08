@@ -7,7 +7,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
 # Define Measures and Add Business Information to a View
-<!-- description --> SAP Data Warehouse Cloud allows you to add business information to your data, making it easier for all users to make sense of the data. This is what we call the semantic layer. You can add business names to columns within tables, as well as semantic types to better identify the type of data in columns.
+<!-- description --> SAP Datasphere allows you to add business information to your data, making it easier for all users to make sense of the data. This is what we call the semantic layer. You can add business names to columns within tables, as well as semantic types to better identify the type of data in columns.
 
 ## Prerequisites
  - You have [graphically created your data model.](data-warehouse-cloud-7-graphicalview)
@@ -20,12 +20,12 @@ primary_tag: software-product>sap-data-warehouse-cloud
   - How to change the semantic type of measures and attributes
   - How to preview your modelled dataset
 
-  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get a holistic view of their sales data by using the power of SAP Data Warehouse Cloud. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Data Warehouse Cloud to help the bike suppliers make the best possible business decisions.
+  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get a holistic view of their sales data by using the power of SAP Datasphere. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Datasphere to help the bike suppliers make the best possible business decisions.
 
   This mission consists of 8 modules that contain the necessary steps you need to follow in your mission to help Best Run Bikes:
 
-  1. [Sign up for free tier tenant.](data-warehouse-cloud-1-begin-trial)
-  2. [Get to know the SAP Data Warehouse Cloud interface](data-warehouse-cloud-2-interface)
+  1. [Sign up for a SAP Datasphere free tier tenant.](data-warehouse-cloud-1-begin-trial)
+  2. [Get to know the SAP Datasphere interface](data-warehouse-cloud-2-interface)
   3. [Add users and assign roles](data-warehouse-cloud-3-add-users)
   4. [Create your Space](data-warehouse-cloud-4-spaces)
   5. [Import your datasets](data-warehouse-cloud-5-import-dataset)
@@ -33,7 +33,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
   7. [Create a graphical view model](data-warehouse-cloud-7-graphicalview)
   8. **You are here ->** [Define measures, business semantics and preview your data](data-warehouse-cloud-8-define-measures)
 
-  You can also follow the steps in this tutorial by watching this video
+  You can also follow the steps in this tutorial by watching this video. Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While this video references SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
   <iframe id="kmsembed-1_k1l2h463" width="421" height="300" src="https://video.sap.com/embed/secure/iframe/entryId/1_k1l2h463/uiConfId/30317401/pbc/122287171/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="T08-Define Measures and Add Business Information to a View.mp4"></iframe>
 
@@ -42,7 +42,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ### Understand semantic information
 
 
-Semantic information is simply a layer of information that is focused on providing a "translation" in business language to help all users understand each aspect of the data. Sometimes datasets can be hard to read for users who are not familiar with the way the data is structured, using a lot of abbreviations or acronyms. The semantic layer of SAP Data Warehouse Cloud can help you solve that issue by adding new column names, as well as defining the appropriate semantic type information for each column.
+Semantic information is simply a layer of information that is focused on providing a "translation" in business language to help all users understand each aspect of the data. Sometimes datasets can be hard to read for users who are not familiar with the way the data is structured, using a lot of abbreviations or acronyms. The semantic layer of SAP Datasphere can help you solve that issue by adding new column names, as well as defining the appropriate semantic type information for each column.
 
 The following is a list of the potential semantic usage that you can determine for your tables and views:
 
@@ -157,7 +157,7 @@ The preview is limited to a maximum of 1,000 lines and, by default, to the first
 
 Having successfully created a working data model, you can now help Best Run Bikes bring together information from different parts of their business to understand more about their sales. You can now use these data models to visualise your sales or transaction data, and subsequently draw insights and make better business decisions in your organisation.
 
-Congratulations on finishing this mission and getting to know the basics of SAP Data Warehouse Cloud! To continue learning, please see the [other tutorials and missions available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud).
+Congratulations on finishing this mission and getting to know the basics of SAP Datasphere! To continue learning, please see the [other tutorials and missions available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud).
 
 
 

@@ -6,12 +6,12 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Create a Database User in SAP Data Warehouse Cloud
+# Create a Database User in SAP Datasphere
 <!-- description --> Create a database user, that is, a technical user that can connect the underlying SAP HANA Cloud database to third-party SQL clients and allow data to get in or out via JDBC/ODBC.
 
 ## Prerequisites
-  - You have [familiarised yourself with the SAP Data Warehouse Cloud interface.](data-warehouse-cloud-2-interface)
-  - You have [understood different roles](data-warehouse-cloud-3-add-users), and are assigned the DW Administrator role.
+  - You have [familiarised yourself with the SAP Datasphere interface.](data-warehouse-cloud-2-interface)
+  - You have [understood different roles](data-warehouse-cloud-3-add-users), and are assigned the SAP Datasphere Administrator role.
 
 ## You will learn
   - Who a database user is
@@ -22,9 +22,9 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ### Understand who database users are
 
 
-Database users are technical users that can connect the underlying SAP HANA Cloud, SAP HANA database to third-party SQL clients and allow data to be received or sent out via JDBC/ODBC. In SAP Data Warehouse Cloud, an open SQL schema is always created when you create a database user. This open SQL schema grants the database user read privileges to the underlying database. Depending on your needs, different privileges can be set for different schemas.
+Database users are technical users that can connect the underlying SAP HANA Cloud, SAP HANA database to third-party SQL clients and allow data to be received or sent out via JDBC/ODBC. In SAP Datasphere, an open SQL schema is always created when you create a database user. This open SQL schema grants the database user read privileges to the underlying database. Depending on your needs, different privileges can be set for different schemas.
 
-Every user who wants to work with the underlying SAP HANA Cloud, SAP HANA database must have a database user. But be careful, since database users that have more than read access can make significant changes to the data flowing into SAP Data Warehouse
+Every user who wants to work with the underlying SAP HANA Cloud, SAP HANA database must have a database user. But be careful, since database users that have more than read access can make significant changes to the data flowing into SAP Datasphere.
 
 
 ### Create a database user
@@ -32,7 +32,7 @@ Every user who wants to work with the underlying SAP HANA Cloud, SAP HANA databa
 
 When you create a database user, you also configure which privileges the user is granted.
 
-> You need the DW Administrator role to create a database user.
+> You need the SAP Datasphere Administrator role to create a database user.
 
 In this example, we'll assume that you don't have a database user and want to create one and add the privileges.
 
@@ -79,7 +79,7 @@ Follow the below steps in order to create a database user:
 
     The following information can be found here:
 
-      -	**Database User Name** – The name of your SAP Data Warehouse Cloud database user.
+      -	**Database User Name** – The name of your SAP Datasphere database user.
 
       -	**Open SQL Schema** - The schema name that is used to connect your SQL clients. SQL clients are granted write access to this schema allowing you to ingest their data.
 
@@ -98,7 +98,7 @@ Follow the below steps in order to create a database user:
 
 > **Well done!**
 
-> You have completed this tutorial. Now you know how to create a database user in SAP Data Warehouse Cloud.
+> You have completed this tutorial. Now you know how to create a database user in SAP Datasphere.
 
 
 

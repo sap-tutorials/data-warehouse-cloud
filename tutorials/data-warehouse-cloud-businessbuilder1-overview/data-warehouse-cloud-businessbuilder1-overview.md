@@ -8,11 +8,11 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Business Builder in SAP Data Warehouse Cloud
-<!-- description --> Learn about the business modeling capabilities of the Business Builder in SAP Data Warehouse Cloud, including what you can use it for, who should use it, and some of the prerequisites.
+# Business Builder in SAP Datasphere
+<!-- description --> Learn about the business modeling capabilities of the Business Builder in SAP Datasphere, including what you can use it for, who should use it, and some of the prerequisites.
 
 ## You will learn
-- What is the Business Layer in SAP Data Warehouse Cloud
+- What is the Business Layer in SAP Datasphere
 - What type of objects you can create with the Business Builder
 - When you should use the Business Builder instead of the Data Builder
 - An end-to-end example
@@ -21,7 +21,7 @@ primary_tag: software-product>sap-data-warehouse-cloud
 ## Intro
 The Business Builder helps you instantly model your organizational data in business terms. With it, you can create business entities and relationships with an easy to understand structure, making business users more independent from IT.
 
-In practice, it allows business users to collaborate and create data models in SAP Data Warehouse Cloud based on a semantic view of the organization's data. Once all the data is setup and made available by IT in SAP Data Warehouse Cloud, then it's easy to give permissions to the right people, enabling you to get your data ready to provide business insights.
+In practice, it allows business users to collaborate and create data models in SAP Datasphere based on a semantic view of the organization's data. Once all the data is setup and made available by IT in SAP Datasphere, then it's easy to give permissions to the right people, enabling you to get your data ready to provide business insights.
 
 
 ---
@@ -29,15 +29,15 @@ In practice, it allows business users to collaborate and create data models in S
 ### Get to know the business layer
 
 
-In SAP Data Warehouse Cloud, you can work on your data in two different layers:
+In SAP Datasphere, you can work on your data in two different layers:
 
 -	The **business layer**, where business users can see facts, measures and dimensions already modelled in the data layer, and create business models to answer business questions. This is where you can prepare your data to be shared with visualization tool, such as SAP Analytics Cloud.
 
--	The **data layer**, where IT and other technical users can directly create connections to data sources, prepare and transform the data itself. It requires knowledge of the data architecture of your organization, as well as system access to bring the data together into SAP Data Warehouse Cloud.
+-	The **data layer**, where IT and other technical users can directly create connections to data sources, prepare and transform the data itself. It requires knowledge of the data architecture of your organization, as well as system access to bring the data together into SAP Datasphere.
 
 When it comes to using the Business Builder for modeling data, it allows you to:
 
--	Explore, validate, and model their business scenarios in SAP Data Warehouse Cloud
+-	Explore, validate, and model their business scenarios in SAP Datasphere
 -	Create business scenarios independently from changes in the data layer
 -	Collaborate with technical experts on one system
 -	Collaborate with other business users by sharing models in the Repository Explorer
@@ -72,11 +72,11 @@ Perspectives allow you to select only specific attributes and measures and focus
 
 A consumption model allows you to combine business entities and fact models to create an output that answers a concrete business question. A consumption model can contain multiple perspectives. You can enrich business entities with additional calculations if necessary. Once you are done with a consumption model, you can deploy it to any target visualization client, such as SAP Analytics Cloud or 3rd-party tools via SQL.
 
-To model a meaningful consumption model, business entities define associations between each other. All potential association targets can be pre-defined on the data layer to provide business users with a variety of modeling options when preparing their use case-specific consumption model. Designating the right measures to your business entities is the first step towards fully utilizing the powerful capabilities of the Business Builder in SAP Data Warehouse Cloud.
+To model a meaningful consumption model, business entities define associations between each other. All potential association targets can be pre-defined on the data layer to provide business users with a variety of modeling options when preparing their use case-specific consumption model. Designating the right measures to your business entities is the first step towards fully utilizing the powerful capabilities of the Business Builder in SAP Datasphere.
 
 **Authorization Scenarios**
 
-An authorization scenario is a way to restrict access to parts of the data within a business entity. It's reusable and can be applied to any business entity in SAP Data Warehouse Cloud.
+An authorization scenario is a way to restrict access to parts of the data within a business entity. It's reusable and can be applied to any business entity in SAP Datasphere.
 
 
 
@@ -85,7 +85,7 @@ An authorization scenario is a way to restrict access to parts of the data withi
 ### Choose the right tool for you
 
 
-As you get to know SAP Data Warehouse Cloud better, you might wonder which of the builders is the best one for your needs: the Data Builder or the Business Builder.
+As you get to know SAP Datasphere better, you might wonder which of the builders is the best one for your needs: the Data Builder or the Business Builder.
 
 Both have their reason to exist, but you can understand better in the example below:
 
@@ -93,11 +93,11 @@ Both have their reason to exist, but you can understand better in the example be
 
 One important thing to keep in mind is: everything is that is created in the Business Builder can only be created after the data has been brought into the Space, and after a view is created with the Data Builder.
 
-The strength of SAP Data Warehouse Cloud is in bringing together different parts of the organization to connect, prepare, model, and then create business entities for visualization. That means collaborating with colleagues who have different skills to enable business analysts to come into the Business Builder and start modeling data based on concrete business questions.
+The strength of SAP Datasphere is in bringing together different parts of the organization to connect, prepare, model, and then create business entities for visualization. That means collaborating with colleagues who have different skills to enable business analysts to come into the Business Builder and start modeling data based on concrete business questions.
 
 > **Well done!**
 
-> You have completed the first tutorial of this group! Now you understand better the business layer and Business Builder in SAP Data Warehouse Cloud.
+> You have completed the first tutorial of this group! Now you understand better the business layer and Business Builder in SAP Datasphere.
 
 > Learn in the next tutorial how to create your first analytical dataset.
 

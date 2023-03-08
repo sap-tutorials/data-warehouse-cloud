@@ -6,23 +6,25 @@ tags: [ tutorial>intermediate, products>sap-data-intelligence]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Connect SAP Data Intelligence Cloud to SAP Data Warehouse Cloud
-<!-- description --> SAP Data Warehouse Cloud and SAP Data Intelligence Cloud work together to provide a full data integration platform with machine learning capabilities, data discovery features and automated processing capabilities. Learn how to connect SAP Data Intelligence Cloud to SAP Data Warehouse Cloud in this tutorial.
+# Connect SAP Data Intelligence Cloud to SAP Datasphere
+<!-- description --> SAP Datasphere and SAP Data Intelligence Cloud work together to provide a full data integration platform with machine learning capabilities, data discovery features and automated processing capabilities. Learn how to connect SAP Data Intelligence Cloud to SAP Datasphere in this tutorial.
 
 ## Prerequisites
   - You have [created a database user in your Space with both reading and writing capabilities.](data-warehouse-cloud-intro8-create-databaseuser)
 
 ## You will learn
-  - How to connect SAP Data Intelligence Cloud to SAP Data Warehouse Cloud
+  - How to connect SAP Data Intelligence Cloud to SAP Datasphere
+
+Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While some screenshots in this tutorial reference SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
 ---
 
-### Add IP address to IP allowlist in SAP Data Warehouse Cloud
+### Add IP address to IP allowlist in SAP Datasphere
 
 
-To allow SAP Data Intelligence Cloud to connect to the database of SAP Data Warehouse Cloud, you need to add the external (public) IPv4 address of the client to an allowlist in SAP Data Warehouse Cloud.
+To allow SAP Data Intelligence Cloud to connect to the database of SAP Datasphere, you need to add the external (public) IPv4 address of the client to an allowlist in SAP Datasphere.
 
-To do so, navigate to the **Configuration** screen on the bottom left of your SAP Data Warehouse Cloud tenant. Here, you can find the **IP Allowlist** tab, where you can simply click on **Add** and enter the IPv4 address of your system to add it to the allowlist.
+To do so, navigate to the **Configuration** screen on the bottom left of your SAP Datasphere tenant. Here, you can find the **IP Allowlist** tab, where you can simply click on **Add** and enter the IPv4 address of your system to add it to the allowlist.
 
   ![IP Allowlist](T05 7.png)
 
@@ -35,9 +37,9 @@ To do so, navigate to the **Configuration** screen on the bottom left of your SA
 ### Establish connection to SAP HANA in SAP Data Intelligence Cloud
 
 
-SAP Data Intelligence Cloud requires that you create a connection to ingest the data and another connection to write the data back into SAP Data Warehouse Cloud. Essentially, you are bringing data from a Space in SAP Data Warehouse Cloud into SAP Data Intelligence Cloud, where you can leverage the pipe lining and automated processing capabilities, and then putting the data back into a Space in SAP Data Warehouse Cloud.
+SAP Data Intelligence Cloud requires that you create a connection to ingest the data and another connection to write the data back into SAP Datasphere. Essentially, you are bringing data from a Space in SAP Datasphere into SAP Data Intelligence Cloud, where you can leverage the pipe lining and automated processing capabilities, and then putting the data back into a Space in SAP Datasphere.
 
-This requires that you have a database user created in both your reading and writing Spaces in SAP Data Warehouse Cloud.
+This requires that you have a database user created in both your reading and writing Spaces in SAP Datasphere.
 
 After creating your database users, proceed with the following steps to create a connection to ingest the data in SAP Data Intelligence Cloud.
 
@@ -59,32 +61,32 @@ After creating your database users, proceed with the following steps to create a
 
 This connection can now act as your means of reading the data.
 
-Simply follow the same steps but with the credentials of the database user from your writing Space to create a connection that writes the processed data back into SAP Data Warehouse Cloud.
+Simply follow the same steps but with the credentials of the database user from your writing Space to create a connection that writes the processed data back into SAP Datasphere.
 
 
 
 ### Leverage connection and create data model
 
 
-With the connection now firmly established, you can create your data model in SAP Data Intelligence Cloud with the data from SAP Data Warehouse Cloud.
+With the connection now firmly established, you can create your data model in SAP Data Intelligence Cloud with the data from SAP Datasphere.
 
 1.	Navigate to the **Modeler** tab from the home screen of SAP Data Intelligence Cloud.
 
     ![Modeler](T03 5.png)
 
-2. Select the **Graph** tab on the left, and drag the **Read HANA table** and **Write HANA table** into your view. Enter their respective database user credentials into their properties. This acts as your base of reading and writing data from and back into SAP Data Warehouse Cloud. Once you read the data from SAP Data Warehouse Cloud, you can leverage the pipe lining and automated processing capabilities, and then write the data back into a Space in SAP Data Warehouse Cloud using the **Write HANA table** function.
+2. Select the **Graph** tab on the left, and drag the **Read HANA table** and **Write HANA table** into your view. Enter their respective database user credentials into their properties. This acts as your base of reading and writing data from and back into SAP Datasphere. Once you read the data from SAP Datasphere, you can leverage the pipe lining and automated processing capabilities, and then write the data back into a Space in SAP Datasphere using the **Write HANA table** function.
 
     ![Graphs](T03 6.png)
 
-3.	The data model now becomes available in SAP Data Warehouse Cloud. Simply navigate to the **Data Builder**, click on **New Graphical View** and navigate to the sources tab, where you can find the database schema you defined for writing in SAP Data Intelligence Cloud.
+3.	The data model now becomes available in SAP Datasphere. Simply navigate to the **Data Builder**, click on **New Graphical View** and navigate to the sources tab, where you can find the database schema you defined for writing in SAP Data Intelligence Cloud.
 
     ![Data Builder](T03 7.png)
 
 >**Well done!**
 
-> You have completed the 3rd tutorial of this group! Now you know how to connect SAP Data Intelligence Cloud to SAP Data Warehouse Cloud and create data models.
+> You have completed the 3rd tutorial of this group! Now you know how to connect SAP Data Intelligence Cloud to SAP Datasphere and create data models.
 
-> Learn in the next tutorial [how to install an ODBC Driver for use with SAP Data Warehouse Cloud.](data-warehouse-cloud-bi4-install-odbc)
+> Learn in the next tutorial [how to install an ODBC Driver for use with SAP Datasphere.](data-warehouse-cloud-bi4-install-odbc)
 
 
 

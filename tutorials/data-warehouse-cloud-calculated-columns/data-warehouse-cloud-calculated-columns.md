@@ -6,11 +6,11 @@ tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
 primary_tag: software-product>sap-data-warehouse-cloud
 ---
 
-# Create a Calculated Column in SAP Data Warehouse Cloud
-<!-- description --> Learn how to add a calculated column to a view and get familiar with writing formulas using functions in the Data Builder of SAP Data Warehouse Cloud.
+# Create a Calculated Column in SAP Datasphere
+<!-- description --> Learn how to add a calculated column to a view and get familiar with writing formulas using functions in the Data Builder of SAP Datasphere.
 
 ## Prerequisites
-- You have your SAP Data Warehouse Cloud tenant, or you have signed up for a [free tier tenant](data-warehouse-cloud-1-begin-trial)
+- You have your SAP Datasphere tenant, or you have signed up for a [SAP Datasphere free tier tenant](data-warehouse-cloud-1-begin-trial)
 - You have imported data into your Space
 - Understand [Core Data Services Query Language (CQL)](https://cap.cloud.sap/docs/cds/cql)
 
@@ -21,18 +21,20 @@ primary_tag: software-product>sap-data-warehouse-cloud
 - How to preview a newly added calculated column
 - How to create a calculated expression using CQL
 
+Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While some screenshots in this tutorial reference SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
+
 
 ## Intro
-You can kick start this tutorial by checking out our tutorial on [**Model Data with a Graphical View**](data-warehouse-cloud-graphical1-model) to understand the basic data modeling in SAP Data Warehouse Cloud.
+You can kick start this tutorial by checking out our tutorial on [**Model Data with a Graphical View**](data-warehouse-cloud-graphical1-model) to understand the basic data modeling in SAP Datasphere.
 
 ---
 
 ### Create a new calculated column
 
 
-1.	Go to the **Data Builder** in the menu of left-hand side of the SAP Data Warehouse Cloud welcome page and select the Space in which you have your view.
+1.	Go to the **Data Builder** in the menu of left-hand side of the SAP Datasphere welcome page and select the Space in which you have your view.
 
-    <!-- border -->![DWC](T01 - New_DWC.png)
+    <!-- border -->![DWC](DS_Homescreen_DataBuilder.png)
 
 2. Then, click on **New Graphical View**.
 
@@ -123,7 +125,7 @@ To preview the data after adding a new calculated column, follow these steps:
 
 
 
-Once you have arrived at the `CalculatedElementsProperties` sidebar and chose to create a new calculated column in the Data Builder, you will see the fields to enter Business name and Technical name followed by Expression box, Functions, Columns and the Operators that you can use in SAP Data Warehouse Cloud.
+Once you have arrived at the `CalculatedElementsProperties` sidebar and chose to create a new calculated column in the Data Builder, you will see the fields to enter Business name and Technical name followed by Expression box, Functions, Columns and the Operators that you can use in SAP Datasphere.
 
   <!-- border -->![Fields](Fields.png)
 
@@ -140,7 +142,7 @@ CASE WHEN NETAMOUNT > 1000 THEN 'GOOD' ELSE 'BAD' END
 
 > **Well done!**
 >
-> You have completed the **Calculated Columns** tutorial in SAP Data Warehouse Cloud. Now it is time to continue learning. Please check out the other [SAP Data Warehouse Cloud tutorials available here] (https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the [SAP Data Warehouse Cloud tag] (https://blogs.sap.com/tags/73555000100800002141/) in the SAP Community to hear about the most up to date product news.
+> You have completed the **Calculated Columns** tutorial in SAP Datasphere. Now it is time to continue learning. Please check out the other [SAP Datasphere tutorials available here] (https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the [SAP Datasphere tag] (https://community.sap.com) in the SAP Community to hear about the most up to date product news.
 
 
 
