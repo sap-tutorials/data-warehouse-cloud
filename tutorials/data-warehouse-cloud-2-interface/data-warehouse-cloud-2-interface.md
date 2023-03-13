@@ -1,9 +1,9 @@
 ---
-parser: v2
+parser: v2cloud
 auto_validation: true
 time: 5
-tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-datasphere]
+primary_tag: software-product>sap-datasphere
 ---
 
 # Get to Know the SAP Datasphere Interface

@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-datasphere]
+primary_tag: software-product>sap-datasphere
 ---
 
 # Create Level-Based Hierarchies in SAP Datasphere
@@ -59,7 +59,7 @@ For instance, a time dimension might have a hierarchy that represents data at th
 
 >**Well done!**
 
-> You have completed the create hierarchies with SAP Datasphere tutorial group. Now it is time to continue learning. Please check out the other SAP Datasphere tutorials available here, and don't forget to follow the SAP Datasphere tag in the [SAP Community](http://community.sap.com) to hear about the most up to date product news.
+> You have completed the create hierarchies with SAP Datasphere tutorial group. Now it is time to continue learning. Please check out the other SAP Datasphere tutorials available here, and don't forget to follow the [SAP Datasphere tag](https://blogs.sap.com/tags/73555000100800002141/) in the SAP Community to hear about the most up to date product news.
 
 
 

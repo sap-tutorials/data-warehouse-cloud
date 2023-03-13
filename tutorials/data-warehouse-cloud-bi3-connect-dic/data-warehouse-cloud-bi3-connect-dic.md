@@ -3,7 +3,7 @@ parser: v2
 auto_validation: true
 time: 15
 tags: [ tutorial>intermediate, products>sap-data-intelligence]
-primary_tag: software-product>sap-data-warehouse-cloud
+primary_tag: software-product>sap-datasphere
 ---
 
 # Connect SAP Data Intelligence Cloud to SAP Datasphere
