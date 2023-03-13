@@ -1,5 +1,5 @@
 ---
-parser: v2cloud
+parser: v2
 auto_validation: true
 time: 5
 tags: [ tutorial>beginner, software-product>sap-datasphere]
@@ -59,7 +59,7 @@ You can find the complete technical documentation of SAP Datasphere by following
 
 Explore all SAP Datasphere tutorials [here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud).
 
-Follow the SAP Datasphere tag in the SAP Community to hear the latest news and ask questions from experts.
+Follow the [SAP Datasphere tag](https://blogs.sap.com/tags/73555000100800002141/) in the SAP Community to hear the latest news and ask questions from experts.
 
 Now that you're familiar with the overview of SAP Datasphere, you are ready to get hands-on!
 
