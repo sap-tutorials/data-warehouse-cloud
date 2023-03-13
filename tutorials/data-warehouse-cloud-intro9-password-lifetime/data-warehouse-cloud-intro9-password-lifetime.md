@@ -1,5 +1,5 @@
 ---
-parser: v2User
+parser: v2
 auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>sap-datasphere]
@@ -20,7 +20,7 @@ primary_tag: software-product>sap-datasphere
 
 ---
 
-### Define a global password policy
+### Define a global password policy 
 
 
 SAP Datasphere allows you to connect to 3rd-party ETL and BI tools by using database users. Each user has its own set of credentials, including passwords. To help you better meet your security needs, we have introduced an option to manage password lifetime for database users. This feature allows you to:
