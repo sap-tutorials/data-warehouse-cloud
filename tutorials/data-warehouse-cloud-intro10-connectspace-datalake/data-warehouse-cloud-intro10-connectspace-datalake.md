@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-datasphere]
+primary_tag: software-product>sap-datasphere
 ---
 
 # Connect Your Space to an SAP HANA Cloud, Data Lake
@@ -70,7 +70,7 @@ You can then work with your virtual tables in the **Data Builder** by selecting 
 
 > **Well done!**
 
-> You have completed the Introduction to SAP Datasphere Administration tutorial group. Now it's time to continue learning. Please check out the other SAP Datasphere tutorials [available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the SAP Datasphere tag in the SAP Community to hear about the most up to date product news.
+> You have completed the Introduction to SAP Datasphere Administration tutorial group. Now it's time to continue learning. Please check out the other SAP Datasphere tutorials [available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the [SAP Datasphere](https://blogs.sap.com/tags/73555000100800002141/) tag in the SAP Community to hear about the most up to date product news.
 
 
 

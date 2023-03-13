@@ -72,7 +72,7 @@ You can then for example visualize the sales of `Product_x` throughout the year 
 
 > **Well done!**
 >
-> You have completed the Basic Data Modeling with Graphical Views tutorial group in SAP Datasphere. Now it is time to continue learning. Please check out the other [SAP Datasphere tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the SAP Datasphere tag in the SAP Community to hear about the most up to date product news.
+> You have completed the Basic Data Modeling with Graphical Views tutorial group in SAP Datasphere. Now it is time to continue learning. Please check out the other [SAP Datasphere tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the [SAP Datasphere](https://blogs.sap.com/tags/73555000100800002141/) tag in the SAP Community to hear about the most up to date product news.
 
 
 

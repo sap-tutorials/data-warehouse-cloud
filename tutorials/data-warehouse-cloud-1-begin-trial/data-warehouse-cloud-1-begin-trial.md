@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 7
-tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-datasphere]
+primary_tag: software-product>sap-datasphere
 author_name: Perla Young
 author_profile: https://github.com/perlayoung
 ---

@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-datasphere]
+primary_tag: software-product>sap-datasphere
 ---
 
 # Add Users and Assign Roles in SAP Datasphere

@@ -4,8 +4,8 @@ author_name: Helena Nacinovic
 author_profile: https://github.com/helenanacinovic
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-datasphere]
+primary_tag: software-product>sap-datasphere
 ---
 
 # Create a Consumption Model in the Business Builder

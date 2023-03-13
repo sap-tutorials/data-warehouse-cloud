@@ -2,8 +2,8 @@
 parser: v2
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-data-warehouse-cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+tags: [ tutorial>beginner, software-product>sap-datasphere]
+primary_tag: software-product>sap-datasphere
 ---
 
 # Create a Calculated Column in SAP Datasphere
@@ -142,7 +142,7 @@ CASE WHEN NETAMOUNT > 1000 THEN 'GOOD' ELSE 'BAD' END
 
 > **Well done!**
 >
-> You have completed the **Calculated Columns** tutorial in SAP Datasphere. Now it is time to continue learning. Please check out the other [SAP Datasphere tutorials available here] (https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the [SAP Datasphere tag] (https://community.sap.com) in the SAP Community to hear about the most up to date product news.
+> You have completed the **Calculated Columns** tutorial in SAP Datasphere. Now it is time to continue learning. Please check out the other [SAP Datasphere tutorials available here] (https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and do not forget to follow the [SAP Datasphere tag] (https://blogs.sap.com/tags/73555000100800002141/) in the SAP Community to hear about the most up to date product news.
 
 
 

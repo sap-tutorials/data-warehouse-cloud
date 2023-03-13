@@ -122,7 +122,7 @@ To go back to the Repository Explorer, just click on **Close**.
 
 > You have completed the last tutorial of this group! Now you know how to use the Repository Explorer.
 
-> Now it's time to continue learning. Please check out the other [SAP Datasphere tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the [SAP Datasphere tag](https://https://community.sap.com/) in the SAP Community to hear about the most up to date product news.
+> Now it's time to continue learning. Please check out the other [SAP Datasphere tutorials available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud), and don't forget to follow the [SAP Datasphere tag](https://blogs.sap.com/tags/73555000100800002141/) in the SAP Community to hear about the most up to date product news.
 
 
 

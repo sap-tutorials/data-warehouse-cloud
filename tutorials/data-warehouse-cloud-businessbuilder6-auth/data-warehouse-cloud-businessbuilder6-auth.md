@@ -5,7 +5,7 @@ author_profile: https://github.com/helenanacinovic
 auto_validation: true
 time: 5
 tags: [ tutorial>beginner, topic>cloud]
-primary_tag: software-product>sap-data-warehouse-cloud
+primary_tag: software-product>sap-datasphere
 ---
 
 # Create an Authorization Scenario in the Business Builder
