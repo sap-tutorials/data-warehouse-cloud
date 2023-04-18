@@ -53,18 +53,21 @@ To access the Data Builder, simply click on the Data Builder icon on the left-ha
 ### Import CSV files
 
 
-Now it's time to import the CSV files from the Best Run Bikes scenario, so you can get active with SAP Datasphere.
+Now it's time to import the CSV files from the Best Run Bikes scenario, so you can get active with SAP Datasphere. The CSV files can be found in Step 3 of the [Get Ready for Your SAP Datasphere tutorial](https://developers.sap.com/tutorials/data-warehouse-cloud-1-begin-trial.html). 
 
-1.	Simply click on the import CSV icon as shown in the image below.
+1.  Simply click on the import CSV icon as shown in the image below.
 
-![Data Builder Import Icon](T05-Picture3.png)
+    ![Data Builder Import Icon](T05-Picture3.png)
 
-2.	Then, select your source file from your system.
-3.	Quickly review your data and then click deploy once done.
-4.	Give the table a business name and then wait whilst the table is deployed.
-5.	You can then add in your remaining CSV files by repeating the process.
+2.  Then, select your source file from your system.
 
-![Deploy CSV](T05-Picture4.png)
+3.  Quickly review your data and then click deploy once done.
+
+4.  Give the table a business name and then wait whilst the table is deployed.
+
+5.  You can then add in your remaining CSV files by repeating the process.
+
+    ![Deploy CSV](T05-Picture4.png)
 
 
 
