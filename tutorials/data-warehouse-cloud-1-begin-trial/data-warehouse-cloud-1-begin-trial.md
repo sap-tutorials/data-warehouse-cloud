@@ -19,7 +19,9 @@ author_profile: https://github.com/perlayoung
 
 ### Get your SAP Datasphere free tier tenant
 
-To get started, sign up for your [SAP Datasphere free tier tenant](https://www.sap.com/products/technology-platform/datasphere/trial.html.html). Scroll to the bottom of the page and click on `New to SAP BTP` to get started. Follow along in the video below for step-by-step guidance on setting up your SAP Business Technology Platform free tier account. 
+To get started, sign up for your [SAP Datasphere free tier tenant](https://www.sap.com/products/technology-platform/datasphere/trial.html.html). Scroll to the bottom of the page and click on `New to SAP BTP` to get started. Click [here](https://blogs.sap.com/2023/04/14/sap-datasphere-getting-started-with-sap-datasphere-for-free/) for detailed steps on setting up your SAP Business Technology Platform free tier account and getting started with SAP Datasphere for free.
+
+Or you can follow along in the video below for step-by-step guidance on setting up your SAP Business Technology Platform free tier account. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0zGuMus4R10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
