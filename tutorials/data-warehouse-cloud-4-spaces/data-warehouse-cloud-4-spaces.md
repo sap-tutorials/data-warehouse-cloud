@@ -101,7 +101,7 @@ When a Space exceeds its quota, it will eventually get locked. You'll see it in 
 
 When the Space is locked, operations like uploading data, creating a new user, creating a new connection, new model, or Open SQL Schema, are not possible. Also any operations in the data or business builder using this particular Space are also not possible.
 
-When you click **Unlock Space**, you have 24 hours in which you can delete unwanted data or increase the increase the Space's quota. If you do not take action, the Space remains locked.
+When you click **Unlock Space**, you have 24 hours in which you can delete unwanted data or increase the Space's quota. If you do not take action, the Space remains locked.
 
 It is hence important to manage your Spaces well in order to ensure a smooth experience for you and your team with SAP Datasphere.
 
