@@ -47,15 +47,15 @@ In the **Space Management** screen, each Space is represented by a tile. The Spa
 
   -	Blue Spaces are under active.
 
-Some resources that aren't being used by a blue Space could be reallocated to a red Space, for example. You also have the option to monitor a Space and see detailed information about disk use and in memory usage. This is done by clicking on the three dots next to your Space name.
+Some resources that aren't being used by a blue Space could be reallocated to a red Space, for example. You also have the option to monitor a Space and see detailed information about disk use and in memory usage. This is done by selecting the checkbox of the Space and selecting the Monitor button on the top right.
 
-![Space Overview](T04-Picture3.png)
+![Space Overview](DS_Space_Overview_2.png)
 
 Space monitoring allows the administrator to keep an eye on their Space.
 
-Click your Space or click the monitoring button on the upper right side of your Space in Space Management to open the monitoring page.
+Select the checkbox of your Space select the Monitor button on the top right to open the monitoring page.
 
-![Space Monitoring](T07-Monitoring.jpg)
+![Space Monitoring](DS_Monitoring.png)
 
 On the monitoring screen, you can perform the following features:
 
@@ -70,7 +70,7 @@ On the monitoring screen, you can perform the following features:
 - Table details provides more information such as the name, schema, storage type, record count, and the used storage of each table. Sort your list of tables in ascending, descending order or group them together as well as search for certain values.
 
 
-To see an overview of your Space settings, simply select the Space, and this takes you to the overview, where you can monitor your Space and see a more detailed view of the same. You can fine tune your disk-Space and memory allocations as per your requirements if you wish. For this example, use the minimum configuration.
+To see an overview of your Space settings, simply select the Edit button on the Space, and this takes you to the overview, where you can monitor your Space and see a more detailed view of the same. You can fine tune your disk-Space and memory allocations as per your requirements if you wish. For this example, use the minimum configuration.
 
 ![Space Details](T04-Picture4.png)
 
