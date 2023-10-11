@@ -14,7 +14,7 @@ primary_tag: software-product>sap-datasphere
 ## Prerequisites
 - Understand the Business Builder in SAP Datasphere
 - Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Datasphere
-- Have at least one analytical dataset, dimension, or fact model created with the Business Builder
+- Have at least one fact table, dimension, or fact model created with the Business Builder
 
 
 ## You will learn
@@ -45,7 +45,7 @@ In the Business Builder of SAP Datasphere, start by following these steps:
 
 3.	Click on **Step 2**.
 
-4.	Select the **Initial Fact Source**. This can be an analytical dataset, a dimension, or a fact model.
+4.	Select the **Initial Fact Source**. This can be a fact table, a dimension, or a fact model.
 
 5.	Click on **Step 3**.
 
@@ -57,7 +57,7 @@ Your new consumption model is created.
 
 >You may notice a red alert on the top right-hand side of the screen.
 >
->   ![T05 - Picture 01](T05 - Picture 01.png)
+> ![Picture](T05%20-%20Picture%2001.png)
 >
 > This appears because you have not yet allowed public data access to this consumption model, nor have assigned an authorization scenario to it. You need to give either public data access or a specific authorization, so that this consumption model can be used outside of SAP Datasphere.
 

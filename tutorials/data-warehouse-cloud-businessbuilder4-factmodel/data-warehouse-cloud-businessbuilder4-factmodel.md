@@ -9,12 +9,12 @@ primary_tag: software-product>sap-datasphere
 ---
 
 # Create a Fact Model in the Business Builder
-<!-- description --> Group analytical datasets and dimensions into fact models in the Business Builder of SAP Datasphere.
+<!-- description --> Group fact tables and dimensions into fact models in the Business Builder of SAP Datasphere.
 
 ## Prerequisites
 - Understand the Business Builder in SAP Datasphere
 - Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Datasphere
-- Have at least one analytical dataset and at least one dimension created with the Business Builder
+- Have at least one fact table and at least one dimension created with the Business Builder
 
 
 ## You will learn
@@ -24,9 +24,9 @@ primary_tag: software-product>sap-datasphere
 
 
 ## Intro
-Fact models in the Business Builder of SAP Datasphere help you group analytical datasets and dimensions, so that it is easier to create a complete consumption model, and then visualize the data in SAP Analytics Cloud or equivalent.
+Fact models in the Business Builder of SAP Datasphere help you group fact tables and dimensions, so that it is easier to create a complete consumption model, and then visualize the data in SAP Analytics Cloud or equivalent.
 
-> It is not mandatory to create a fact model before creating a consumption model, but it can help you avoid re-work. For example, if you have 10 different analytical datasets that need to be used in several different consumption models, you can group them in a fact model, and then simply re-use this in every consumption model needed.
+> It is not mandatory to create a fact model before creating a consumption model, but it can help you avoid re-work. For example, if you have 10 different fact tables that need to be used in several different consumption models, you can group them in a fact model, and then simply re-use this in every consumption model needed.
 
 
 ---
@@ -42,7 +42,7 @@ In the Business Builder of SAP Datasphere, start with following these steps:
 
 3.	Click on **Step 2**.
 
-4.	Select the **Initial Fact Source**. This can be an analytical dataset, a dimension, or another fact model.
+4.	Select the **Initial Fact Source**. This can be an fact table, a dimension, or another fact model.
 
 5.	Click on **Step 3**.
 
@@ -74,7 +74,7 @@ If you wish to add a previously created dimension to your fact model, it's very 
 ### Add to or create new business entities in your fact model
 
 
-Just as you can do in the analytical datasets and dimensions, you can add existing measures, attributes and more to your new fact model. You can also create new business entities from the main fact model screen, if needed.
+Just as you can do in the fact table and dimensions, you can add existing measures, attributes and more to your new fact model. You can also create new business entities from the main fact model screen, if needed.
 
 You can also filter and refine your fact model as you wish. To learn more about exposing dimension sources, please see our technical documentation.
 

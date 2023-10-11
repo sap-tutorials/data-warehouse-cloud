@@ -53,7 +53,7 @@ The top left of your interface has a hamburger icon which expands all the button
 
 Need further info?
 
-Check out the SAP Datasphere [product page](https://www.sap.com/products/data-warehouse-cloud.html) and [events page](https://www.sap.com/products/data-warehouse-cloud/events.html).
+Check out the SAP Datasphere [product page](https://www.sap.com/products/technology-platform/datasphere.html) and [events page](https://www.sap.com/products/technology-platform/datasphere/events.html).
 
 You can find the complete technical documentation of SAP Datasphere by following [this link](https://help.sap.com/viewer/product/SAP_DATA_WAREHOUSE_CLOUD/cloud/en-US).
 
