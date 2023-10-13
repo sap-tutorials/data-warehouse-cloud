@@ -33,7 +33,7 @@ SAP Datasphere allows you to connect to 3rd-party ETL and BI tools by using data
 
 > You need the SAP Datasphere Administrator role to configure the password policy.
 
-To define the password policy, go to **Configuration** > **Security**
+To define the password policy, go to **System** > **Configuration** > **Security**
 
   ![Password Policy](T09%201.png)
 

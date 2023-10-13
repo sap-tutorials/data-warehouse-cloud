@@ -100,6 +100,12 @@ The Remote Query Monitor is where you check and analyse how the communication is
 
 
 
+**Task Chain Monitor**
+
+The Task Chain Monitor is where you monitor the status and progress of running and previously run task chains.
+
+
+
 > **Well done!**
 >
 > You have completed the second tutorial of this group! Now you understand the how to access the Data Integration Monitor and what you can use it for.

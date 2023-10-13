@@ -58,7 +58,7 @@ Whether you choose to persist a view or remote tables depends on your performanc
 
 1.	Once the view persistency is created for a view, click on the view and go to the **Schedule** option on the top right of the **View Persistency Monitor** dashboard.
 
-    ![schedule](schedule_Cropped.png)
+    ![schedule](schedule.png)
 
 2.	In the **Create schedule** dialog, you will see the scheduling details similar to scheduling data replication for remote tables. This includes the refresh frequency, month, day, year, start date, and end date.
 

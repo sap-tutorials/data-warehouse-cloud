@@ -14,7 +14,7 @@ primary_tag: software-product>sap-datasphere
 ## Prerequisites
 - Understand the Business Builder in SAP Datasphere
 - Have at least one table or view with at least one dimension created and deployed in the data layer of SAP Datasphere
-- Have at least one analytical dataset, dimension, or fact model created with the Business Builder
+- Have at least one fact table, dimension, or fact model created with the Business Builder
 - Have at least one data access control created
 
 ## You will learn

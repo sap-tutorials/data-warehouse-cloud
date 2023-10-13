@@ -72,7 +72,7 @@ On the monitoring screen, you can perform the following features:
 
 To see an overview of your Space settings, simply select the Edit button on the Space, and this takes you to the overview, where you can monitor your Space and see a more detailed view of the same. You can fine tune your disk-Space and memory allocations as per your requirements if you wish. For this example, use the minimum configuration.
 
-![Space Details](T04-Picture4.png)
+![Space Details](DS%20Updated%20Overview%20Oct%202023.png)
 
 Now that you've created your Space, you can now move ahead and assign users to your Space.
 

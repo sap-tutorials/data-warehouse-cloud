@@ -52,9 +52,9 @@ To enable audit logs for individual database schemas in SAP Datasphere:
 
   1.	Go to Space Management by clicking on the icon on the left-side menu and select the Space in which you want to enable the logs.
 
-  2.	Navigate to the **Data Access** tab, where you can find the database users assigned to your Space.
+  2.	Navigate to the **Database Access** tab, where you can choose to expose data for consumption, as well as find (and create) the database users assigned to your Space.
 
-    ![Data Access](T06 2.png)
+    ![Database Access](Updated%20enable%20auto%20logs%20step%203.png)
 
   3. Now, simply select the database user you wish to enable audit logs for.
 
@@ -79,7 +79,7 @@ To enable audit logs for individual database schemas in SAP Datasphere:
 
 2. Choose the space from the drop-down list that contains the audit logs you wish to see.
 
-    ![View](T06 4.png)
+    ![View](Updated%20view%20audit%20logging%20step%204.png)
 
     > To configure this setting, you need the audit configuration authorization. We recommend creating a dedicated Space for audit logs, as you might not want all users to view sensitive data.
 

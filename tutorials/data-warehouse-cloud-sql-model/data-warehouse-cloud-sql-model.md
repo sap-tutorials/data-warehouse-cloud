@@ -44,7 +44,7 @@ To start modeling your data using the graphical view in the Data Builder of SAP 
 
 2.	Then, click on **New SQL View**.
 
-    <!-- border -->![SQL View]((T01%20-%20SQL_cropped.png)
+    <!-- border -->![SQL View](T01%20-%20SQL_cropped.png)
 
 3. You can see on the left side of the screen a list of your local and remote tables and views. In the center of the screen, you can see an area to input your SQL code. As you type your code, SAP Datasphere will offer suggestions.
 > <!-- border -->![Suggestions](Suggestions_Cropped.png)
@@ -68,9 +68,9 @@ To start modeling your data using the graphical view in the Data Builder of SAP 
     ```
     <!-- border -->![Code ](Code_Cropped.png)
 
-> Exposing the SQL views makes the object available for consumption in SAP Analytics Cloud with which you can invoke business intelligence tools on your data and use them for data analysis. To do this you will have to define the data model type as a `Analytical Dataset` in the model properties sidebar of the view and toggle on the option **Expose for consumption**.
+> Exposing the SQL views makes the object available for consumption in SAP Analytics Cloud with which you can invoke business intelligence tools on your data and use them for data analysis. To do this you will have to define the data model type as a `Fact` in the model properties sidebar of the view and toggle on the option **Expose for consumption**. Upon deploying the current SQL view, you'll need to create the Analytic Model from the Model Properties screen. Deploy your Analytic Model. The Analytic Model can now be consumed within SAP Analytics Cloud.
 
-> <!-- border -->![Expose](expose.png)
+> <!-- border -->![Expose](DSP_Fact.png)
 
 You can also convert your **Graphical View** in the SQL statements. You can refer the step 4 of **[Preview and Transform Your Data in a Graphical View](data-warehouse-cloud-graphical2-datapreview)** for information on converting your graphical view to SQL statements.
 
@@ -87,7 +87,7 @@ You can also convert your **Graphical View** in the SQL statements. You can refe
 
 3.	You can use the sidebar on the right to add business semantics to your data model, just as you would using the graphical view. When you are ready and your code is valid, just save and deploy your data model.
 
-    ![deploy](deploy.png)
+    ![deploy](DSP_Deploy.png)
 
 
 
