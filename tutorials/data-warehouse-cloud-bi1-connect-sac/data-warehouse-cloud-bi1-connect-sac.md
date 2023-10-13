@@ -51,7 +51,7 @@ In SAP Analytics Cloud, you can now create stories using SAP Datasphere data as 
 
 When you link your tenants, you'll enable the product switch in the top right of the shell bar, and be able to easily navigate between them.
 
-  ![Switcher](T01 2.png)
+  ![Switcher](DSP.png)
 
 >**Well done!**
 

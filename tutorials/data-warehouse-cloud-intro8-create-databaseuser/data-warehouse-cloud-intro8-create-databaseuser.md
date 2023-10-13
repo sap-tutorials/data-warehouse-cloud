@@ -42,7 +42,7 @@ Follow the below steps in order to create a database user:
 
   2. Select **Database Users** and click on **Create**.
 
-    ![Database Access](T08 1.png)
+    ![Database Access](T08%201.png)
 
   3. If you already have a database user and want to adjust it select **Edit Privileges**.
 
@@ -67,15 +67,15 @@ Follow the below steps in order to create a database user:
 
   12. Once done, deploy your changes by clicking on the **Deploy** button on the top right of your screen.
 
-    ![Deploy](T08 4.png)
+    ![Deploy](T08%204.png)
 
   13. You can now access the Database User Details by clicking on the **i** icon next to your newly created database user.
 
-    ![User](T08 5.png)
+    ![User](T08%205.png)
 
     This provides you with the required credentials to connect to your SQL client.
 
-    ![Details](T08 6.png)
+    ![Details](T08%206.png)
 
     The following information can be found here:
 

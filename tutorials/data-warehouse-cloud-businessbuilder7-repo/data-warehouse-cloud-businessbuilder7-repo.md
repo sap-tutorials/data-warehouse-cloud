@@ -100,7 +100,7 @@ It's very easy to create new objects or edit existing ones from the Repository E
 To see where the data is coming from, you can do a lineage analysis. This also includes an impact analysis, so you can also see the impact of any changes you might make to an object.
 Just click on the **Impact and Lineage Analysis** button and a pop-up will open with the lineage of the data included in the selected object.
 
-![Repository](T07 - Picture 06.png)
+![Repository](Updated%20Step%205%20-%20impact%20and%20lineage%20analysis.png)
 
 To go back to the Repository Explorer, just click on **Close**.
 

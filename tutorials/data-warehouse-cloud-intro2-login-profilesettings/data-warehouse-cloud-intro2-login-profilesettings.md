@@ -29,11 +29,15 @@ The **Settings** dialog will open, where you can find the following information:
 
 -	**Appearance** – The SAP standard theme that is used for the visual appearance of SAP Datasphere.
 
+-   **Home Screen** – You manage the cards and tools that are displayed on the home screen.
+
 -	**Language & Region** – You can find language settings, formatting settings and the setting for the currency here.
 
 -	**UI Settings** – The UI Settings tab shows the way names are shown in SAP Datasphere, namely the business name or technical name.
 
--	**Schedule Consent Settings** – Here you can set your decision on authorizing the central scheduling component to run data integration tasks.
+-   **Privacy** – Allows for the ability to remember recent searches and opened objects.
+
+-	**Authorized Consent Settings** – Here you can set your decision on authorizing the central scheduling component to run data integration tasks.
 
 
 
