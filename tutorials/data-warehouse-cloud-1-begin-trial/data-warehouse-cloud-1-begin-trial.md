@@ -16,6 +16,8 @@ author_profile: https://github.com/perlayoung
   - The goals of this mission
   - Where to find and how to use the toolkit for this mission
 
+  Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While videos below reference SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
+
 
 ### Get your SAP Datasphere free tier tenant
 
