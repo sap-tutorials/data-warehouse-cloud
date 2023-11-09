@@ -49,14 +49,14 @@ When it comes to using the Business Builder for modeling data, it allows you to:
 
 To create your business scenarios with the Business Builder, here are the objects you can create:
 
--	Business Entities (Analytical Datasets or Dimensions)
+-	Business Entities (Facts or Dimensions)
 -	Fact Models
 -	Consumption Models and Perspectives
 -	Authorization Scenarios
 
-**Business Entities: Analytical Datasets or Dimensions**
+**Business Entities: Facts or Dimensions**
 
-A business entity is based on a view created in the data layer, and it represents an object, such as information about products or sales, including all selected attributes and measures. In the Business Builder, you can create associations between facts and attributes coming from a view in the data layer. Business entities can be either an analytical dataset – which is a fact table with measures and foreign keys - or a dimension – which is tables containing only attributes.
+A business entity is based on a view created in the data layer, and it represents an object, such as information about products or sales, including all selected attributes and measures. In the Business Builder, you can create associations between facts and attributes coming from a view in the data layer. Business entities can be either a fact – which is a fact table with measures and foreign keys - or a dimension – which is tables containing only attributes.
 
 [Learn here more about facts and dimensions](https://blogs.sap.com/2021/07/22/facts-measures-and-dimensions/)
 
@@ -87,7 +87,7 @@ An authorization scenario is a way to restrict access to parts of the data withi
 
 As you get to know SAP Datasphere better, you might wonder which of the builders is the best one for your needs: the Data Builder or the Business Builder.
 
-Both have their reason to exist, but you can understand better in the example below:
+Both have their reason to exist, you can understand better in the example below:
 
   ![Layers](Picture1.png)
 
@@ -99,7 +99,7 @@ The strength of SAP Datasphere is in bringing together different parts of the or
 
 > You have completed the first tutorial of this group! Now you understand better the business layer and Business Builder in SAP Datasphere.
 
-> Learn in the next tutorial how to create your first analytical dataset.
+> Learn in the next tutorial how to create your first fact.
 
 
 
