@@ -43,7 +43,7 @@ primary_tag: software-product>sap-datasphere
 
 SAP Datasphere has two modelling layers tailored for different user groups: the data layer is the area where data engineers can create their models with a technical approach, whereas the business layer is the area for business users who create their models using a more semantic approach. This allows business users to work independently from data engineers, while still being able to collaborate and share data with them.
 
-<!-- border -->![Data Modeling Overview](T05-Picture1.png)
+![Data Modeling Overview](Get%20to%20know%20data%20builder%20updated.png)
 
 To access the Data Builder, simply click on the Data Builder icon on the left-hand side menu of SAP Datasphere.
 
