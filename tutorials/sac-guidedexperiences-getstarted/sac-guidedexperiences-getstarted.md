@@ -45,7 +45,7 @@ There are guided experiences for SAP Analytics Cloud and SAP Datasphere.
 To register for a guided experience, click the "Experience" buttons at the top of these pages:
 
 -	[SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html)
--	[SAP Datasphere](https://www.sap.com/products/technology-platform/data-warehouse-cloud.html)
+-	[SAP Datasphere](https://www.sap.com/products/technology-platform/datasphere/guided-experience.html)
 
 To register for a guided experience, all you need is a [sap.com account](https://www.sap.com/registration/protected/form-universal-reg.afl.html?generalRegistration=true). If you do not have an sap.com account yet, you will be prompted to create one.
 
