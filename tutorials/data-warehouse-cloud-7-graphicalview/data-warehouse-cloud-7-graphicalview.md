@@ -19,7 +19,7 @@ primary_tag: software-product>sap-datasphere
   - How to restore columns in your graphical view
   - How to deploy a graphical view
 
-  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get adatasphere holistic view of their sales data by using the power of SAP Datasphere. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Datasphere to help the bike suppliers make the best possible business decisions.
+  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get a datasphere holistic view of their sales data by using the power of SAP Datasphere. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Datasphere to help the bike suppliers make the best possible business decisions.
 
   This mission consists of 8 modules that contain the necessary steps you need to follow in your mission to help Best Run Bikes:
 
