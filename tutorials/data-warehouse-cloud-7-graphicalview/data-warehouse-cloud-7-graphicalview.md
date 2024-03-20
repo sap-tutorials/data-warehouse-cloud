@@ -19,7 +19,7 @@ primary_tag: software-product>sap-datasphere
   - How to restore columns in your graphical view
   - How to deploy a graphical view
 
-  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get adatasphere holistic view of their sales data by using the power of SAP Datasphere. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Datasphere to help the bike suppliers make the best possible business decisions.
+  This tutorial is part of a mission, in which you try to help Best Run Bikes to to get a holistic view of their sales data by using the power of SAP Datasphere. You will get the sales data of Best Run Bikes and it is your mission to use the features of SAP Datasphere to help the bike suppliers make the best possible business decisions.
 
   This mission consists of 8 modules that contain the necessary steps you need to follow in your mission to help Best Run Bikes:
 
@@ -32,9 +32,9 @@ primary_tag: software-product>sap-datasphere
   7. **You are here ->** [Create a graphical view model](data-warehouse-cloud-7-graphicalview)
   8. [Define measures, business semantics and preview your data](data-warehouse-cloud-8-define-measures)
 
-  You can also follow the steps in this tutorial by watching this video. Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While this video references SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
+  You can also follow the steps in this tutorial by watching this video. Please note that SAP Data Warehouse Cloud has evolved into SAP Datasphere. While some references may refer to SAP Data Warehouse Cloud, the content applies to SAP Datasphere.
 
-  <iframe id="kmsembed-1_7wphfgec" width="421" height="300" src="https://video.sap.com/embed/secure/iframe/entryId/1_7wphfgec/uiConfId/30317401/pbc/122287171/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="T07-Create a Graphical View in SAP Data Warehouse Cloud"></iframe>
+ <iframe id="kmsembed-1_lqnz4kcd" width="421" height="300" src="https://video.sap.com/embed/secure/iframe/entryId/1_lqnz4kcd/uiConfId/30317401/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="T07-Create a Graphical View in SAP Data Warehouse Cloud"></iframe>
 
 ---
 

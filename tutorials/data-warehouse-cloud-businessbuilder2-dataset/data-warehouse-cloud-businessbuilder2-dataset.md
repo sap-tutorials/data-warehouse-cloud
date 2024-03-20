@@ -8,15 +8,15 @@ tags: [ tutorial>beginner, software-product>sap-datasphere]
 primary_tag: software-product>sap-datasphere
 ---
 
-# Create an Analytical Dataset in the Business Builder
-<!-- description --> Create a new analytical dataset with measures and attributes in the Business Builder of SAP Datasphere.
+# Create a Fact in the Business Builder
+<!-- description --> Create a new fact with measures and attributes in the Business Builder of SAP Datasphere.
 
 ## Prerequisites
 - Understand the Business Builder in SAP Datasphere
 - Have at least one table or view with at least one measure created and deployed in the data layer of SAP Datasphere
 
 ## You will learn
-- How to create a new analytical dataset
+- How to create a new fact
 - How to add existing measures to your dataset
 - How to add a new measure to your dataset
 - How to add existing attributes to your dataset
@@ -32,33 +32,31 @@ In this tutorial, you will see an example dataset that contains information abou
 
 ---
 
-### Create a new analytical dataset
+### Create a new fact
 
 
 1.	In SAP Datasphere, click on the **Business Builder** icon.
 
-2.	Then, click on **New Analytical Dataset**.
+2.	Then, click on **New Fact**.
+
+    ![Picture0](T02 - Picture 00.png)
 
 3.	Select the data entity you wish to use in this dataset. Either click on the entity you want to use, or search for it by using the search field on top of the pop-up window.
 
     ![Picture1](T02 - Picture 01.png)
 
-4.	The **Business Name** and **Technical Name** fields will be automatically filled-out for you, but you can make changes if needed.
+4.	The **Business Name** and **Technical Name** fields will be automatically filled-out for you, but you can make changes if needed and then Click on **Create**.
 
-5.	Click on **Create**.
+    ![Picture1](T02 - Picture 01-1.png)
 
-6.	Finally, a pop-up will ask you if you want to copy the properties of the data entity or not.
+5.	Finally, a pop-up will ask you if you want to copy the properties of the data entity or not. After you make your selection, click on **Create**.
 
     ![T02 - Picture 02](T02 - Picture 02.png)
-
-7.	After you make your selection, click on **Create**.
-
 
 
 ### Add existing measures
 
-
-Now that your analytical dataset is created, it's time to populate it. Start with adding measures.
+Now that your new fact is created, it's time to populate it. Start with adding measures.
 
 1.	Click on **Measures** on the top menu.
 
@@ -68,12 +66,9 @@ Now that your analytical dataset is created, it's time to populate it. Start wit
 
 3.	A pop-up will open to show you the measures available in the source data. Check all the measures you wish to include. Then click on **Apply**.
 
-Your existing measures are now available in the analytical dataset.
-
-
+Your existing measures are now available in the fact.
 
 ### Add a new measure
-
 
 1.	To add a new measure, click on the **New Measure** button.
 
@@ -112,14 +107,12 @@ Your existing measures are now available in the analytical dataset.
 
 8.	Click on **Save** to save your new measure.
 
-Your new measure is now available in the analytical dataset.
-
-
+Your new measure is now available in the fact.
 
 ### Add existing attributes
 
 
-Now it's time to add attributes to your analytical dataset.
+Now it's time to add attributes to your fact.
 
 1.	Click on **Attributes** on the top menu.
 
@@ -129,14 +122,15 @@ Now it's time to add attributes to your analytical dataset.
 
 3.	A pop-up will open to show you the attributes available in the source data. Check all the attributes you wish to include. Then click on **Apply**.
 
-Your existing attributes are now available in the analytical dataset.
-
+Your existing attributes are now available in the fact.
 
 
 ### Add a new attribute
 
 
 1.	To add a new attribute, click on the **New Attribute** button.
+
+    ![T02 - Picture 05](T02 - Picture 06.png)
 
 2.	Now you can enter the details of the new attribute, including:
 
@@ -154,35 +148,29 @@ Your existing attributes are now available in the analytical dataset.
 
 3.	Click on **Save** to save your new attribute.
 
-Your new attribute is now available in the analytical dataset
+Your new attribute is now available in the Fact.
 
 
 
 ### Preview your dataset and adjust the perspective
 
 
-You are almost done creating a base analytical dataset. Before you move on to another task, it's important to preview your data and make sure you have the right dataset.
+You are almost done creating a base fact. Before you move on to another task, it's important to preview your data and make sure you have the right dataset.
 Just click on the **Data Preview** link on the top right-hand corner of the screen.
 
-![T02 - Picture 06](T02 - Picture 06.png)
+![T02 - Picture 06](T02 - Picture 07.png)
 
 Now you can see the preview, as well as adjust it by using the sidebar on the left of the screen. You can add measures and attributes to the perspective or remove them. You can also hide fields that are in the perspective according to your needs.
 
-![T02 - Picture 07](T02 - Picture 07.png)
+![T02 - Picture 07](T02 - Picture 08.png)
 
-> You have completed the second tutorial of this group! Now you know how to create an analytical dataset in the Business Builder of SAP Datasphere.
+> You have completed the second tutorial of this group! Now you know how to create a fact in the Business Builder of SAP Datasphere.
 
 > Learn in the next tutorial how to create a dimension in the Business Builder.
 
 
 
 ### Test yourself
-
-
-
-
-
-
 
 
 ---

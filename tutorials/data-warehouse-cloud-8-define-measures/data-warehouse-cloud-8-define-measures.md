@@ -46,52 +46,56 @@ Semantic information is simply a layer of information that is focused on providi
 
 The following is a list of the potential semantic usage that you can determine for your tables and views:
 
-- **Relational Dataset** - [default] Contains columns with no specific analytical purpose.
+- **Relational Dataset** - [default] Contains columns with no specific analytical purpose.(see [Columns](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/8f0f40df2ed34035b8b5837897205ee6.html))
 - **Dimension** - Contains attributes with master data like a product list or store directory, and supporting hierarchies (see [Create a Dimension](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/5aae0e95361a4a4c964e69c52eada87d.html)).
-- **Analytical Dataset** - Contains one or more measures and attributes. This is the principal type of artefact used by analytical clients (see [Create an Analytical Dataset](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/30089bd2aa754ab996a62cf5842ae60a.html)).
+- **Fact** - Contains one or more measures and attributes (see [Creating a Fact](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/30089bd2aa754ab996a62cf5842ae60a.html))
+- **Hierarchy** - Contains attributes defining a parent-child hierarchy (see [Creating an External Hierarchy](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/dbac7a862b3744d8a71d268644aac389.html)).
+- **Hierarchy with Directory** - Contains one or more parent-child hierarchies (see [Creating a Hierarchy with Directory](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/36c39eee184c485a80ebce9d0fec49ec.html)).
 - **Text** - Contains attributes used to provide textual content in one or more languages (see [Create a Text Entity for Attribute Translation](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/b25726df116b463e97435ba720e48ac9.html)).
 
-Though tables and views can both be identified with semantic usage, only views have the property Expose for Consumption, which makes them available to SAP Analytics Cloud and other analytical clients.
+Based on the **Semantic Usage** of your entity, review and modify its **Columns**, **Attributes**, and/or **Measures**:
 
-To be consumable as a model in SAP Analytics Cloud, your entity must be a view with:
-- Semantic Usage set to Analytical Dataset (see [Create an Analytical Dataset](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/30089bd2aa754ab996a62cf5842ae60a.html)).
-- Expose for Consumption enabled.
-- At least one measure identified (see [Measures](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/33f7f291538a44a293a89f6f1cf1fa81.html)).
+- **Fact** - Review the lists of **measures** and **attributes**.
+- **Dimension** - Review the list of **attributes**.
+- **Hierarchy** - Define the **parent** and **child columns**.
+- **Hierarchy with Directory** - Define all the necessary **attributes** and **settings**.
+- **Text** - Review the list of **attributes**.
+- **Relational Dataset** - Review the list of **columns**. 
+  
+Tables and views can both be identified with **Semantic Usage**. With the **Fact** semantic usage you can expose your view data via analytic models.
 
+### Define Facts 
 
+1. Go to the **Data Builder**. You may need to select your appropriate **space** first.
+2. Click on the graphical view that you created earlier.
+   ![Data Builder](T08-Picture1.png)
 
-### Define measures
-
-
-Now it's time to define measures in your data. If you need more information on what measures are, please see [this help guide](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/33f7f291538a44a293a89f6f1cf1fa81.html?q=measures).
-
-1.	Go to the Data Builder. You may need to select your appropriate space first.
-2.	Click on the graphical view that you created earlier.
-
-    ![Data Builder](T08-Picture1.png)
-
-3.	Change the semantic usage of this to **Analytical Dataset** in the Model Properties tab on the right-side of the screen. This will allow you to change attributes into measures.
-
+3. Change the semantic usage of this to **Fact** in the **Model Properties** tab on the right-side of the screen. This will allow you to change **attributes** into **measures**. 
     <!-- border -->![Semantic Type](T08-Picture2.png)
 
+4. To make your view available for consumption outside SAP Datasphere enable the **Expose for Consumption** property 
+    <!-- border -->![Expose for consumption](T08-Picture2-1.png)
+
+5. After you enable the view to expose for consumption.  You will encounter an error that shows with the table or view the type **Fact** needs at least one visible measure.
+    <!-- border -->![Expose for consumption](T08-Picture2-2.png)
 
 > It is necessary to define some of our columns as measures in order to create charts and graphs in SAP Analytics Cloud.
 
-4.	To convert an attribute into a measure, simply drag and drop the attribute into the measures area in the Model Properties tab. In this example, define `GrossAmount_Items` as a measure.
+### Define measures
+
+Now it's time to define measures in your data. If you need more information on what measures are, please see [this help guide](https://help.sap.com/viewer/c8a54ee704e94e15926551293243fd1d/cloud/en-US/33f7f291538a44a293a89f6f1cf1fa81.html?q=measures).
+
+1.	To convert an attribute into a measure, simply drag and drop the attribute into the measures area in the Model Properties tab. In this example, define `GrossAmount_Items` as a measure.
 
     ![Drag Measure](T08-Picture3.png)
 
-5.	Define `GrossAmount_Orders` as a measure as well.
+2.	Define `GrossAmount_Orders` as a measure as well.
 
     ![Drag Measure 2](T08-Picture4.png)
 
 > The system will not allow you to define dimensions as measures.
 
-
-
-
 ### Add business information
-
 
 Next, add some more business information about the data model.
 
@@ -126,12 +130,10 @@ For example, next to a column, open the drop-down list and find **Geolocation - 
 
 This tells the system specifically what kind of data is in the column, and is very useful when performing data analysis.
 
-> To add semantic types, you must set the semantic usage of your view or table to Dimension or Analytical Dataset.
-
+> To add semantic types, you must set the semantic usage of your view or table to **Dimension** or **Fact**.
 
 
 ### Save and deploy
-
 
 Once you are done adding your semantic information and types, don't forget to first save, and then deploy your view.
 
@@ -146,8 +148,7 @@ Once you are done adding your semantic information and types, don't forget to fi
 
 ### Preview your Data
 
-
-You have now successfully created, saved and deployed your analytical dataset.
+You have now successfully created, saved and deployed your **Fact**.
 
 If you wish, you can preview your data model by clicking on the data preview icon next to your output node.
 
@@ -155,7 +156,54 @@ If you wish, you can preview your data model by clicking on the data preview ico
 
 The preview is limited to a maximum of 1,000 lines and, by default, to the first 20 columns in the table or view. You can also reorder, sort, or filter your columns according to your needs in the data preview section of the data builder.
 
-Having successfully created a working data model, you can now help Best Run Bikes bring together information from different parts of their business to understand more about their sales. You can now use these data models to visualise your sales or transaction data, and subsequently draw insights and make better business decisions in your organisation.
+SAP Analytics Cloud do not consume views data directly. We have defined the Semantic Usage of your view to Fact and now we will add it to an analytic model to expose it.
+
+### Create a Analytical Model
+
+Analytic models are the analytical foundation for making data ready for consumption in SAP Analytics Cloud. They allow you to create and define **multi-dimensional models** to provide data for analytical purposes to answer different business questions.
+
+1. From the side navigation, choose **Data Builder**, select a **space** if necessary, and choose **New Analytic Model** to open the editor.
+   ![Data Preview](T08-Picture12.png)
+
+2. Add a source. For more information, see [Add a Source](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/27075eeeba634f55be0b52e92cf88159.html).
+   ![Data Preview](T08-Picture12-1.png)
+   
+3. Click on your fact source on the canvas to select or deselect any measures, associated dimensions, or attributes in the properties panel on the right. For more information, see [Add a Dimension](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/4caf0987e7c7460e878fb574f04bd6a4.html).
+    ![Data Preview](T08-Picture13.png)
+
+4. You can choose **Preview** to check if the data looks like expected. 
+   ![Data Preview](T08-Picture14.png)
+   
+5. Data preview is a rich analysis enviroment that allows to constantly check the modelling outcome and see exactly how SAP Analytics Cloud users will see your model.It basically brings in the following functions:
+
+    - Flexibly choose relevant attributes & measures to place them in columns or rows; drag & drop to re-arrange
+    -  Set flexible filters on any attribute or measure incl. value help
+    -  Display of hierarchies or flat presentation
+    -  Change sorting, filtering, totals, unbooked values & display behavior (e.g. ID and/or description, number formatting, etc.)
+    -  Preview without need to deploy first
+   
+    ![Data Preview](T08-Picture15.png)
+
+> For more information, see [Using the Data Preview](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/9f1fa73a33424cbe9bac3064702c0dbd.html).
+
+### Save and deploy
+
+Once you are done with the **Preview**, don't forget to first save, and then deploy your view.
+
+1.	Click on the **save icon** on the top left corner of the screen.
+
+    ![Save](T08-Picture16.png)
+
+2. Enter a descriptive **Name** to identify the object and enter a new **Technical Name**. Technical names can contain only alphanumeric characters and underscores.
+   
+    ![Save](T08-Picture17.png)
+
+3.	Then, click on the **deploy icon** next to the save icon to deploy your model.
+
+    ![Deploy](T08-Picture18.png)
+
+
+Having successfully created a working analytical model, you can now help Best Run Bikes bring together information from different parts of their business to understand more about their sales. You can now use these data models to visualise your sales or transaction data, and subsequently draw insights and make better business decisions in your organisation.
 
 Congratulations on finishing this mission and getting to know the basics of SAP Datasphere! To continue learning, please see the [other tutorials and missions available here](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-data-warehouse-cloud).
 
