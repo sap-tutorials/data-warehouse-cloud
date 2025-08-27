@@ -4,6 +4,8 @@ auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>sap-datasphere]
 primary_tag: software-product>sap-analytics-cloud
+author_name: KP Sauer
+author_profile: https://github.com/kp-sauer
 ---
 
 # Get started with Basic Trial
