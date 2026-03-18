@@ -2,7 +2,7 @@
 parser: v2
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-datasphere]
+tags: [ tutorial>beginner, software-product>sap-datasphere, software-product>sap-analytics-cloud ]
 primary_tag: software-product>sap-analytics-cloud
 author_name: KP Sauer
 author_profile: https://github.com/kp-sauer
@@ -46,8 +46,8 @@ There are basic trials for SAP Analytics Cloud and SAP Datasphere.
 
 To register for a basic trial, click the "Experience" buttons at the top of these pages:
 
--	[SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html)
--	[SAP Datasphere](https://www.sap.com/products/technology-platform/datasphere/guided-experience.html)
+-	[SAP Analytics Cloud](https://www.sap.com/products/data-cloud/cloud-analytics.html)
+-	[SAP Datasphere](https://www.sap.com/products/data-cloud/datasphere.html)
 
 To register for a basic trial, all you need is a [sap.com account](https://www.sap.com/registration/protected/form-universal-reg.afl.html?generalRegistration=true). If you do not have an sap.com account yet, you will be prompted to create one.
 
